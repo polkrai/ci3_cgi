@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\AppServ\www\ci3_cgi\ci3_cgi.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/ci3_cgi/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/ci3_cgi/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\base.php">
+			<error val="31;142;34;142;302;2;"/>
+			<error val="50;146;53;146;302;2;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+		<todofile name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\block.php">
+			<todo name="TODO: Figure out why there end up being missing newlines sometimes" pos="7;107"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\core\Loader.php">
+			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\core\Output.php">
+			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;209"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\database\DB_forge.php">
+			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;557"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\database\DB_query_builder.php">
+			<todo name="@todo error" pos="4;2000"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_driver.php">
+			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\sqlite_forge.php">
+			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\helpers\date_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;134"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\helpers\file_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;58"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\helpers\security_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;89"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\helpers\string_helper.php">
+			<todo name="todo Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo: remove in 3.1+" pos="19;229"/>
+			<todo name="todo: remove in 3.1+" pos="20;232"/>
+			<todo name="todo Remove in version 3.1+." pos="5;292"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\helpers\url_helper.php">
+			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+		</todofile>
+		<todofile name="C:\AppServ\www\ci3_cgi\system\libraries\Xmlrpc.php">
+			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\js\index.html" crc="1501183702"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\js\default_i18n.js" crc="1501183704"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\img\index.html" crc="1501183701"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\css\login.css" crc="1501183698"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\css\index.html" crc="1501183697"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\css\default.css" crc="1501183700"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\template.php" crc="1501183692"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\default\index.html" crc="1501183694"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\js\index.html" crc="1501183685"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\js\core_i18n.js" crc="1501183689"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\img\index.html" crc="1501183681"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\fonts\bromine\Readme.txt" crc="1501183603"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\css\index.html" crc="1501183599"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\css\core.css" crc="1501183601"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\README.txt" crc="1501183595"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\core\index.html" crc="1501183597"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\plugin\specialchars\summernote-ext-specialchars.js" crc="1501183596"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\plugin\hello\summernote-ext-hello.js" crc="1501183593"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\plugin\databasic\summernote-ext-databasic.js" crc="1501183588"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\plugin\databasic\summernote-ext-databasic.css" crc="1501183590"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-zh-TW.js" crc="1501183539"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-zh-CN.js" crc="1501183539"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-vi-VN.js" crc="1501183541"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-uk-UA.js" crc="1501183542"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-tr-TR.js" crc="1501183544"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-th-TH.js" crc="1501183544"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-sv-SE.js" crc="1501183546"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-sr-RS.js" crc="1501183546"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-sr-RS-Latin.js" crc="1501183548"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-sl-SI.js" crc="1501183549"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-sk-SK.js" crc="1501183550"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ru-RU.js" crc="1501183551"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ro-RO.js" crc="1501183553"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-pt-PT.js" crc="1501183553"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-pt-BR.js" crc="1501183555"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-pl-PL.js" crc="1501183556"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-nl-NL.js" crc="1501183562"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-nb-NO.js" crc="1501183558"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-lt-LV.js" crc="1501183560"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-lt-LT.js" crc="1501183562"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ko-KR.js" crc="1501183564"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ja-JP.js" crc="1501183565"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-it-IT.js" crc="1501183566"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-id-ID.js" crc="1501183567"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-hu-HU.js" crc="1501183568"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-hr-HR.js" crc="1501183569"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-he-IL.js" crc="1501183571"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-gl-ES.js" crc="1501183573"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-fr-FR.js" crc="1501183573"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-fi-FI.js" crc="1501183575"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-fa-IR.js" crc="1501183575"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-es-EU.js" crc="1501183577"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-es-ES.js" crc="1501183579"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-de-DE.js" crc="1501183579"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-da-DK.js" crc="1501183581"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-cs-CZ.js" crc="1501183581"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ca-ES.js" crc="1501183585"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-bg-BG.js" crc="1501183584"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\lang\summernote-ar-AR.js" crc="1501183586"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\users_i18n.js" crc="1501183488"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\summernote.min.js" crc="1501183506"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\summernote.js" crc="1501183537"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\settings_i18n.js" crc="1501183509"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\index.html" crc="1501183513"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\dashboard_i18n.js" crc="1501183518"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\contact_i18n.js" crc="1501183520"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\bootstrap-datepicker.js" crc="1501183532"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\js\admin_i18n.js" crc="1501183535"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\img\index.html" crc="1501183486"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\summernote.css" crc="1501183385"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\summernote-bs3.css" crc="1501183415"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\summernote-bs2.css" crc="1501183459"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\index.html" crc="1501183417"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\bootstrap-datepicker.css" crc="1501183422"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\css\admin.css" crc="1501183425"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\template.php" crc="1501183379"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\admin\index.html" crc="1501183380"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\README.txt" crc="1501183375"/>
+		<file name="C:\AppServ\www\ci3_cgi\themes\index.html" crc="1501183377"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\drivers\Session_redis_driver.php" crc="1501183368"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\drivers\Session_memcached_driver.php" crc="1501183368"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\drivers\Session_files_driver.php" crc="1501183372"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\drivers\Session_database_driver.php" crc="1501183373"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\drivers\index.html" crc="1501183374"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\SessionHandlerInterface.php" crc="1501183359"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\Session_driver.php" crc="1501183360"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\Session.php" crc="1501183363"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Session\index.html" crc="1501183362"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Javascript\Jquery.php" crc="1501183358"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Javascript\index.html" crc="1501183356"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\index.html" crc="1501183344"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_wincache.php" crc="1501183345"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_redis.php" crc="1501183348"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_memcached.php" crc="1501183349"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_file.php" crc="1501183351"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_dummy.php" crc="1501183351"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\drivers\Cache_apc.php" crc="1501183354"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\index.html" crc="1501183340"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cache\Cache.php" crc="1501183342"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Zip.php" crc="1501183258"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Xmlrpcs.php" crc="1501183261"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Xmlrpc.php" crc="1501183276"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\User_agent.php" crc="1501183265"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Upload.php" crc="1501183274"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Unit_test.php" crc="1501183281"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Typography.php" crc="1501183280"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Trackback.php" crc="1501183284"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Table.php" crc="1501183285"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Profiler.php" crc="1501183292"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Parser.php" crc="1501183289"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Pagination.php" crc="1501183292"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Migration.php" crc="1501183296"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Javascript.php" crc="1501183301"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\index.html" crc="1501183298"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Image_lib.php" crc="1501183310"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Ftp.php" crc="1501183304"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Form_validation.php" crc="1501183315"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Encryption.php" crc="1501183319"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Encrypt.php" crc="1501183321"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Email.php" crc="1501183337"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Driver.php" crc="1501183325"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Cart.php" crc="1501183329"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\libraries\Calendar.php" crc="1501183337"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\upload_lang.php" crc="1501183223"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\unit_test_lang.php" crc="1501183225"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\profiler_lang.php" crc="1501183229"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\pagination_lang.php" crc="1501183231"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\number_lang.php" crc="1501183233"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\migration_lang.php" crc="1501183235"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\index.html" crc="1501183237"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\imglib_lang.php" crc="1501183241"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\ftp_lang.php" crc="1501183244"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\form_validation_lang.php" crc="1501183246"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\email_lang.php" crc="1501183248"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\db_lang.php" crc="1501183251"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\date_lang.php" crc="1501183254"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\english\calendar_lang.php" crc="1501183255"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\language\index.html" crc="1501183220"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\xml_helper.php" crc="1501183154"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\url_helper.php" crc="1501183156"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\typography_helper.php" crc="1501183161"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\text_helper.php" crc="1501183166"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\string_helper.php" crc="1501183169"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\smiley_helper.php" crc="1501183172"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\security_helper.php" crc="1501183174"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\path_helper.php" crc="1501183176"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\number_helper.php" crc="1501183178"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\language_helper.php" crc="1501183181"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\inflector_helper.php" crc="1501183185"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\index.html" crc="1501183187"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\html_helper.php" crc="1501183189"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\form_helper.php" crc="1501183195"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\file_helper.php" crc="1501183198"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\email_helper.php" crc="1501183200"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\download_helper.php" crc="1501183203"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\directory_helper.php" crc="1501183205"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\date_helper.php" crc="1501183209"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\cookie_helper.php" crc="1501183211"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\captcha_helper.php" crc="1501183214"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\helpers\array_helper.php" crc="1501183216"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\fonts\index.html" crc="1501183148"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlsrv\sqlsrv_utility.php" crc="1501183141"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlsrv\sqlsrv_result.php" crc="1501183143"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlsrv\sqlsrv_forge.php" crc="1501183143"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlsrv\sqlsrv_driver.php" crc="1501183145"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlsrv\index.html" crc="1501183146"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_utility.php" crc="1501183133"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_result.php" crc="1501183133"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_forge.php" crc="1501183135"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\sqlite3_driver.php" crc="1501183138"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite3\index.html" crc="1501183138"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\sqlite_utility.php" crc="1501183126"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\sqlite_result.php" crc="1501183126"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\sqlite_forge.php" crc="1501183128"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\sqlite_driver.php" crc="1501183129"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\sqlite\index.html" crc="1501183130"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\postgre\postgre_utility.php" crc="1501183117"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\postgre\postgre_result.php" crc="1501183118"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\postgre\postgre_forge.php" crc="1501183119"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\postgre\postgre_driver.php" crc="1501183122"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\postgre\index.html" crc="1501183122"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_forge.php" crc="1501183072"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_sqlsrv_driver.php" crc="1501183074"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_sqlite_forge.php" crc="1501183078"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_sqlite_driver.php" crc="1501183076"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_pgsql_forge.php" crc="1501183079"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_pgsql_driver.php" crc="1501183082"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_odbc_forge.php" crc="1501183081"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_odbc_driver.php" crc="1501183083"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_oci_forge.php" crc="1501183092"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_oci_driver.php" crc="1501183086"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_mysql_forge.php" crc="1501183088"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_mysql_driver.php" crc="1501183091"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_informix_forge.php" crc="1501183093"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_informix_driver.php" crc="1501183097"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_ibm_forge.php" crc="1501183096"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_ibm_driver.php" crc="1501183098"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_firebird_forge.php" crc="1501183101"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_firebird_driver.php" crc="1501183102"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_dblib_forge.php" crc="1501183103"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_dblib_driver.php" crc="1501183105"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_cubrid_forge.php" crc="1501183112"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_cubrid_driver.php" crc="1501183108"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_4d_forge.php" crc="1501183110"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\pdo_4d_driver.php" crc="1501183112"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\subdrivers\index.html" crc="1501183115"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\pdo_utility.php" crc="1501183064"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\pdo_result.php" crc="1501183064"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\pdo_forge.php" crc="1501183066"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\pdo_driver.php" crc="1501183068"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\pdo\index.html" crc="1501183068"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\odbc\odbc_utility.php" crc="1501183055"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\odbc\odbc_result.php" crc="1501183056"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\odbc\odbc_forge.php" crc="1501183058"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\odbc\odbc_driver.php" crc="1501183061"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\odbc\index.html" crc="1501183060"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\oci8\oci8_utility.php" crc="1501183048"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\oci8\oci8_result.php" crc="1501183049"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\oci8\oci8_forge.php" crc="1501183050"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\oci8\oci8_driver.php" crc="1501183053"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\oci8\index.html" crc="1501183052"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysqli\mysqli_utility.php" crc="1501183039"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysqli\mysqli_result.php" crc="1501183040"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysqli\mysqli_forge.php" crc="1501183042"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysqli\mysqli_driver.php" crc="1501183044"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysqli\index.html" crc="1501183044"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysql\mysql_utility.php" crc="1501183032"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysql\mysql_result.php" crc="1501183034"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysql\mysql_forge.php" crc="1501183034"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysql\mysql_driver.php" crc="1501183036"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mysql\index.html" crc="1501183036"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mssql\mssql_utility.php" crc="1501183024"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mssql\mssql_result.php" crc="1501183025"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mssql\mssql_forge.php" crc="1501183026"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mssql\mssql_driver.php" crc="1501183028"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\mssql\index.html" crc="1501183029"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\ibase\index.html" crc="1501183016"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\ibase\ibase_utility.php" crc="1501183016"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\ibase\ibase_result.php" crc="1501183018"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\ibase\ibase_forge.php" crc="1501183020"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\ibase\ibase_driver.php" crc="1501183023"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\cubrid\index.html" crc="1501183007"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\cubrid\cubrid_utility.php" crc="1501183010"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\cubrid\cubrid_result.php" crc="1501183010"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\cubrid\cubrid_forge.php" crc="1501183012"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\cubrid\cubrid_driver.php" crc="1501183013"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\drivers\index.html" crc="1501183007"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\index.html" crc="1501182977"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_utility.php" crc="1501182978"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_result.php" crc="1501182981"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_query_builder.php" crc="1501182997"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_forge.php" crc="1501182988"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_driver.php" crc="1501183003"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB_cache.php" crc="1501182999"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\database\DB.php" crc="1501183004"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\compat\standard.php" crc="1501182969"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\compat\password.php" crc="1501182971"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\compat\mbstring.php" crc="1501182971"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\compat\index.html" crc="1501182974"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\compat\hash.php" crc="1501182974"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Utf8.php" crc="1501182925"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\URI.php" crc="1501182927"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Security.php" crc="1501182935"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Router.php" crc="1501182929"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Output.php" crc="1501182938"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Model.php" crc="1501182938"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Log.php" crc="1501182941"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Loader.php" crc="1501182948"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Lang.php" crc="1501182946"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Input.php" crc="1501182954"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\index.html" crc="1501182951"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Hooks.php" crc="1501182955"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Exceptions.php" crc="1501182956"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Controller.php" crc="1501182958"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Config.php" crc="1501182959"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Common.php" crc="1501182964"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\CodeIgniter.php" crc="1501182966"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\core\Benchmark.php" crc="1501182966"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\index.html" crc="1501182921"/>
+		<file name="C:\AppServ\www\ci3_cgi\system\.htaccess" crc="1501182922"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\js\index.html" crc="1501182918"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\js\default_i18n.js" crc="1501182920"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\img\index.html" crc="1501182918"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\css\login.css" crc="1501182910"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\css\index.html" crc="1501182912"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\css\default.css" crc="1501182914"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\template.php" crc="1501182904"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\default\index.html" crc="1501182907"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\js\index.html" crc="1501182898"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\js\core_i18n.js" crc="1501182900"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\img\index.html" crc="1501182895"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\fonts\bromine\Readme.txt" crc="1501182798"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\css\index.html" crc="1501182795"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\css\core.css" crc="1501182797"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\README.txt" crc="1501182792"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\core\index.html" crc="1501182794"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\plugin\specialchars\summernote-ext-specialchars.js" crc="1501182792"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\plugin\hello\summernote-ext-hello.js" crc="1501182789"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\plugin\databasic\summernote-ext-databasic.js" crc="1501182785"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\plugin\databasic\summernote-ext-databasic.css" crc="1501182786"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-zh-TW.js" crc="1501182731"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-zh-CN.js" crc="1501182733"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-vi-VN.js" crc="1501182736"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-uk-UA.js" crc="1501182737"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-tr-TR.js" crc="1501182738"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-th-TH.js" crc="1501182740"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-sv-SE.js" crc="1501182740"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-sr-RS.js" crc="1501182743"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-sr-RS-Latin.js" crc="1501182743"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-sl-SI.js" crc="1501182745"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-sk-SK.js" crc="1501182745"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ru-RU.js" crc="1501182749"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ro-RO.js" crc="1501182749"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-pt-PT.js" crc="1501182751"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-pt-BR.js" crc="1501182752"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-pl-PL.js" crc="1501182754"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-nl-NL.js" crc="1501182754"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-nb-NO.js" crc="1501182756"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-lt-LV.js" crc="1501182758"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-lt-LT.js" crc="1501182758"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ko-KR.js" crc="1501182760"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ja-JP.js" crc="1501182760"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-it-IT.js" crc="1501182763"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-id-ID.js" crc="1501182763"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-hu-HU.js" crc="1501182765"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-hr-HR.js" crc="1501182765"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-he-IL.js" crc="1501182767"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-gl-ES.js" crc="1501182769"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-fr-FR.js" crc="1501182769"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-fi-FI.js" crc="1501182771"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-fa-IR.js" crc="1501182772"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-es-EU.js" crc="1501182774"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-es-ES.js" crc="1501182776"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-de-DE.js" crc="1501182776"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-da-DK.js" crc="1501182778"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-cs-CZ.js" crc="1501182778"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ca-ES.js" crc="1501182782"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-bg-BG.js" crc="1501182780"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\lang\summernote-ar-AR.js" crc="1501182782"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\users_i18n.js" crc="1501182681"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\summernote.min.js" crc="1501182699"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\summernote.js" crc="1501182726"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\settings_i18n.js" crc="1501182701"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\index.html" crc="1501182704"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\dashboard_i18n.js" crc="1501182706"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\contact_i18n.js" crc="1501182711"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\bootstrap-datepicker.js" crc="1501182733"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\js\admin_i18n.js" crc="1501182728"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\img\index.html" crc="1501182678"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\summernote.css" crc="1501182549"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\summernote-bs3.css" crc="1501182583"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\summernote-bs2.css" crc="1501182642"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\index.html" crc="1501182585"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\bootstrap-datepicker.css" crc="1501182593"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\css\admin.css" crc="1501182598"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\template.php" crc="1501182538"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\admin\index.html" crc="1501182539"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\README.txt" crc="1501182534"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\themes\index.html" crc="1501182537"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\captcha\index.html" crc="1501182534"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\index.php" crc="1501182531"/>
+		<file name="C:\AppServ\www\ci3_cgi\htdocs\.htaccess" crc="1501182530"/>
+		<file name="C:\AppServ\www\ci3_cgi\data\schema_updates\3.2.4 - new login_attempts table.sql" crc="1501182524"/>
+		<file name="C:\AppServ\www\ci3_cgi\data\ci3-fire-starter.sql" crc="1501182523"/>
+		<file name="C:\AppServ\www\ci3_cgi\captcha\index.html" crc="1501182515"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\js\respond.min.js" crc="1501182476"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\js\jquery.min.js" crc="1501182511"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\js\html5shiv.min.js" crc="1501182487"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\js\bootstrap.min.js" crc="1501182501"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\js\bootstrap-select.min.js" crc="1501182513"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\css\font-awesome.min.css" crc="1501182442"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\css\bootstrap.min.css" crc="1501182471"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\css\bootstrap-theme.min.css" crc="1501182452"/>
+		<file name="C:\AppServ\www\ci3_cgi\assets\css\bootstrap-select.min.css" crc="1501182483"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\user\profile_form.php" crc="1501182433"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\user\login.php" crc="1501182434"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\user\index.html" crc="1501182435"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\user\forgot_form.php" crc="1501182436"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\index.html" crc="1501182425"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\error_php.php" crc="1501182426"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\error_general.php" crc="1501182427"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\error_exception.php" crc="1501182429"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\error_db.php" crc="1501182429"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\html\error_404.php" crc="1501182431"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\index.html" crc="1501182417"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\error_php.php" crc="1501182419"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\error_general.php" crc="1501182419"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\error_exception.php" crc="1501182422"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\error_db.php" crc="1501182422"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\cli\error_404.php" crc="1501182424"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\errors\index.html" crc="1501182416"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\contact\form.php" crc="1501182414"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\users\list.php" crc="1501182411"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\users\index.html" crc="1501182411"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\users\form.php" crc="1501182413"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\settings\index.html" crc="1501182405"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\settings\form.php" crc="1501182408"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\contact\list.php" crc="1501182405"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\index.html" crc="1501182401"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\admin\dashboard.php" crc="1501182402"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\welcome.php" crc="1501182398"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\views\index.html" crc="1501182398"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Router.php" crc="1501182386"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Modules.php" crc="1501182391"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Loader.php" crc="1501182388"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Lang.php" crc="1501182392"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Controller.php" crc="1501182393"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Config.php" crc="1501182394"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Ci.php" crc="1501182395"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\MX\Base.php" crc="1501182396"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\third_party\index.html" crc="1501182384"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\sessions\index.html" crc="1501182369"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Welcome\views\welcome_message.php" crc="1501182369"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Welcome\controllers\Welcome.php" crc="1501182366"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Sessions\views\session_login.php" crc="1501182366"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Sessions\models\Mdl_sessions.php" crc="1501182363"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Sessions\controllers\Sessions.php" crc="1501182363"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\views\layout_guest.php" crc="1501182354"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\views\layout.php" crc="1501182358"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\views\header_buttons.php" crc="1501182356"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\views\base.php" crc="1501182358"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\views\alerts.php" crc="1501182360"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Layout\controllers\layout.php" crc="1501182350"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\views\cgi_search.php" crc="1501236741"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\views\cgi_report.php" crc="1501182346"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\views\cgi_index.php" crc="1501238064"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\views\cgi_form.php" crc="1501182347"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\models\Mdl_queue.php" crc="1501237768"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\models\Mdl_patient.php" crc="1501236729"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\models\Mdl_cgi_clinic.php" crc="1501182341"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\models\Mdl_cgi.php" crc="1501182342"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\controllers\Report.php" crc="1501182338"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\modules\Cgi\controllers\Cgi.php" crc="1501238058"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\models\Users_model.php" crc="1501182335"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\models\Settings_model.php" crc="1501182331"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\models\index.html" crc="1501182333"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\models\Contact_model.php" crc="1501182336"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\logs\index.html" crc="1501182328"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\while.php" crc="1501182269"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\value.php" crc="1501182275"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\try.php" crc="1501182278"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\throw.php" crc="1501182280"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\switch.php" crc="1501182283"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\splat.php" crc="1501182286"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\slice.php" crc="1501182288"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\return.php" crc="1501182293"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\range.php" crc="1501182294"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\push.php" crc="1501182295"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\parens.php" crc="1501182296"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\param.php" crc="1501182297"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\op.php" crc="1501182301"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\obj.php" crc="1501182299"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\literal.php" crc="1501182301"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\index.php" crc="1501182303"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\in.php" crc="1501182303"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\if.php" crc="1501182306"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\for.php" crc="1501182307"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\extends.php" crc="1501182308"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\existence.php" crc="1501182309"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\comment.php" crc="1501182310"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\code.php" crc="1501182311"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\closure.php" crc="1501182312"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\class.php" crc="1501182313"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\call.php" crc="1501182316"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\block.php" crc="1501182316"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\base.php" crc="1501182318"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\assign.php" crc="1501182320"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\arr.php" crc="1501182320"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes\access.php" crc="1501182322"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\scope.php" crc="1501182246"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\rewriter.php" crc="1501182248"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\parser.php" crc="1501182290"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\nodes.php" crc="1501182251"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\lexer.php" crc="1501182258"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\helpers.php" crc="1501182264"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\classes\errors.php" crc="1501182266"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\coffeescript\coffeescript.php" crc="1501182244"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\autoload\autoload_functions.php" crc="1501182240"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\autoload\autoload_controller.php" crc="1501182242"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\Template.php" crc="1501232227"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\Redir.php" crc="1501232337"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\MY_Input.php" crc="1501182228"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\MY_Form_validation.php" crc="1501182229"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\Jsi18n.php" crc="1501182232"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\index.html" crc="1501182232"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\Fckeditor.php" crc="1501182237"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\libraries\Assets.php" crc="1501182241"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\welcome_lang.php" crc="1501182209"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\users_lang.php" crc="1501182210"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\upload_lang.php" crc="1501182212"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\settings_lang.php" crc="1501182212"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\pagination_lang.php" crc="1501182214"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\index.html" crc="1501182214"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\form_validation_lang.php" crc="1501182217"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\email_lang.php" crc="1501182216"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\db_lang.php" crc="1501182218"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\date_lang.php" crc="1501182219"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\dashboard_lang.php" crc="1501182221"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\core_lang.php" crc="1501182222"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\contact_lang.php" crc="1501182223"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\turkish\admin_lang.php" crc="1501182224"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\welcome_lang.php" crc="1501182199"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\users_lang.php" crc="1501182200"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\settings_lang.php" crc="1501182202"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\index.html" crc="1501182202"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\dashboard_lang.php" crc="1501182204"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\core_lang.php" crc="1501182205"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\contact_lang.php" crc="1501182206"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\spanish\admin_lang.php" crc="1501182206"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\welcome_lang.php" crc="1501182189"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\users_lang.php" crc="1501182190"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\settings_lang.php" crc="1501182192"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\index.html" crc="1501182192"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\dashboard_lang.php" crc="1501182194"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\core_lang.php" crc="1501182194"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\contact_lang.php" crc="1501182196"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\simplified-chinese\admin_lang.php" crc="1501182197"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\welcome_lang.php" crc="1501182178"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\users_lang.php" crc="1501182180"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\settings_lang.php" crc="1501182182"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\index.html" crc="1501182182"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\dashboard_lang.php" crc="1501182184"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\core_lang.php" crc="1501182185"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\contact_lang.php" crc="1501182186"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\russian\admin_lang.php" crc="1501182187"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\welcome_lang.php" crc="1501182163"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\users_lang.php" crc="1501182164"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\upload_lang.php" crc="1501182165"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\settings_lang.php" crc="1501182166"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\pagination_lang.php" crc="1501182167"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\index.html" crc="1501182168"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\form_validation_lang.php" crc="1501182169"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\email_lang.php" crc="1501182170"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\db_lang.php" crc="1501182172"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\dashboard_lang.php" crc="1501182172"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\core_lang.php" crc="1501182174"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\contact_lang.php" crc="1501182175"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\indonesian\admin_lang.php" crc="1501182176"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\welcome_lang.php" crc="1501182154"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\users_lang.php" crc="1501182154"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\settings_lang.php" crc="1501182156"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\index.html" crc="1501182156"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\dashboard_lang.php" crc="1501182158"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\core_lang.php" crc="1501182158"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\contact_lang.php" crc="1501182160"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\english\admin_lang.php" crc="1501182160"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\welcome_lang.php" crc="1501182138"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\users_lang.php" crc="1501182138"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\upload_lang.php" crc="1501182140"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\settings_lang.php" crc="1501182140"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\pagination_lang.php" crc="1501182142"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\index.html" crc="1501182143"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\form_validation_lang.php" crc="1501182144"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\email_lang.php" crc="1501182145"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\db_lang.php" crc="1501182146"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\date_lang.php" crc="1501182147"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\dashboard_lang.php" crc="1501182149"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\core_lang.php" crc="1501182149"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\contact_lang.php" crc="1501182150"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\dutch\admin_lang.php" crc="1501182151"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\language\index.html" crc="1501182136"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\hooks\index.html" crc="1501182135"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\uri_helper.php" crc="1501182125"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\trans_helper.php" crc="1501238399"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\redirect_helper.php" crc="1501182125"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\pager_helper.php" crc="1501238697"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\MY_url_helper.php" crc="1501182127"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\MY_date_helper.php" crc="1501182127"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\MY_captcha_helper.php" crc="1501182129"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\index.html" crc="1501182129"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\core_helper.php" crc="1501182133"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\helpers\asset_helper.php" crc="1501182131"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\Public_Controller.php" crc="1501182105"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\Private_Controller.php" crc="1501182107"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Router.php" crc="1501182107"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Model_old.php" crc="1501182110"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Model.php" crc="1501238285"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Loader.php" crc="1501182111"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Lang.php" crc="1501182114"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\MY_Controller.php" crc="1501182117"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\index.html" crc="1501182117"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\CGI_Controller.php" crc="1501238376"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\API_Controller.php" crc="1501182119"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\core\Admin_Controller.php" crc="1501182121"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\admin\Users.php" crc="1501182101"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\admin\Settings.php" crc="1501182099"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\admin\Dashboard.php" crc="1501182101"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\admin\Contact.php" crc="1501182104"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\Welcome.php" crc="1501182088"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\User.php" crc="1501182089"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\Profile.php" crc="1501182092"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\index.html" crc="1501182091"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\Contact.php" crc="1501182093"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\Api.php" crc="1501182095"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\controllers\Ajax.php" crc="1501182096"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\user_agents.php" crc="1501182062"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\timezones.php" crc="1501182063"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\smileys.php" crc="1501182065"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\routes.php" crc="1501182174"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\profiler.php" crc="1501182068"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\pagination.php" crc="1501182069"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\mimes.php" crc="1501182071"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\migration.php" crc="1501182072"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\memcached.php" crc="1501182073"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\index.html" crc="1501182074"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\hooks.php" crc="1501182075"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\foreign_chars.php" crc="1501182077"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\doctypes.php" crc="1501182078"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\database.php" crc="1501182774"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\core.php" crc="1501182080"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\constants.php" crc="1501182081"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\config.php" crc="1501182086"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\config\autoload.php" crc="1501182085"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\index.html" crc="1501182056"/>
+		<file name="C:\AppServ\www\ci3_cgi\application\.htaccess" crc="1501182059"/>
+		<file name="C:\AppServ\www\ci3_cgi\phpdoc.dist.xml" crc="1501182041"/>
+		<file name="C:\AppServ\www\ci3_cgi\index.php" crc="1501182048"/>
+		<file name="C:\AppServ\www\ci3_cgi\ci_license.txt" crc="1501182051"/>
+		<file name="C:\AppServ\www\ci3_cgi\.htaccess" crc="1501182054"/>
+	</filescache>
+</project>
