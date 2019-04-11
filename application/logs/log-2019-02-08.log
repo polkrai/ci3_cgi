@@ -1,0 +1,58 @@
+ERROR - 2019-02-08 08:52:05 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column nano_user.department_id does not exist
+LINE 1: ..., &quot;nano_user&quot;.&quot;lastname&quot;, &quot;nano_user&quot;.&quot;group_id&quot;, &quot;nano_user...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-02-08 08:52:05 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column nano_user.department_id does not exist
+LINE 1: ..., &quot;nano_user&quot;.&quot;lastname&quot;, &quot;nano_user&quot;.&quot;group_id&quot;, &quot;nano_user...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-02-08 08:52:05 --> Query error: ERROR:  column nano_user.department_id does not exist
+LINE 1: ..., "nano_user"."lastname", "nano_user"."group_id", "nano_user...
+                                                             ^ - Invalid query: SELECT "nano_session"."session_user_id", "nano_user"."title_43_file", "nano_user"."name", "nano_user"."lastname", "nano_user"."group_id", "nano_user"."department_id", "neural_user_group"."name" AS "group_name"
+FROM "jvkk"."nano_session"
+JOIN "jvkk"."nano_user" ON "jvkk"."nano_user"."id" = "jvkk"."nano_session"."session_user_id"
+LEFT JOIN "jvkk"."neural_user_group" ON "jvkk"."neural_user_group"."id" = "jvkk"."nano_user"."group_id"
+WHERE "id_sess" = E'd11518d9b95a38b5db1290250651978a'
+ERROR - 2019-02-08 08:52:05 --> Query error: ERROR:  column nano_user.department_id does not exist
+LINE 1: ..., "nano_user"."lastname", "nano_user"."group_id", "nano_user...
+                                                             ^ - Invalid query: SELECT "nano_session"."session_user_id", "nano_user"."title_43_file", "nano_user"."name", "nano_user"."lastname", "nano_user"."group_id", "nano_user"."department_id", "neural_user_group"."name" AS "group_name"
+FROM "jvkk"."nano_session"
+JOIN "jvkk"."nano_user" ON "jvkk"."nano_user"."id" = "jvkk"."nano_session"."session_user_id"
+LEFT JOIN "jvkk"."neural_user_group" ON "jvkk"."neural_user_group"."id" = "jvkk"."nano_user"."group_id"
+WHERE "id_sess" = E'd11518d9b95a38b5db1290250651978a'
+ERROR - 2019-02-08 08:55:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 08:55:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 08:55:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 08:55:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 08:55:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 08:56:11 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.option&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;option&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-02-08 08:56:11 --> Query error: ERROR:  relation "frontmed.option" does not exist
+LINE 2: FROM "frontmed"."option"
+             ^ - Invalid query: SELECT "option"."id", "option"."option_name"
+FROM "frontmed"."option"
+WHERE "frontmed"."option"."deleted" = E'f'
+ORDER BY "option"."id" ASC
+ERROR - 2019-02-08 08:56:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2019-02-08 08:57:21 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.option&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;option&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-02-08 08:57:21 --> Query error: ERROR:  relation "frontmed.option" does not exist
+LINE 2: FROM "frontmed"."option"
+             ^ - Invalid query: SELECT "option"."id", "option"."option_name"
+FROM "frontmed"."option"
+WHERE "frontmed"."option"."deleted" = E'f'
+ORDER BY "option"."id" ASC
+ERROR - 2019-02-08 08:57:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2019-02-08 09:04:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 09:04:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 09:08:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 09:08:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 14:11:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-08 14:11:47 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...-28', &quot;appointment_time&quot; =  E'08:00', &quot;user_id&quot; = '', &quot;selec...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-02-08 14:11:47 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...-28', "appointment_time" =  E'08:00', "user_id" = '', "selec...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" =  E'2018-12-28', "appointment_time" =  E'08:00', "user_id" = '', "select_option" =  E'{1,2}', "comment" = '', "component_id" =  E'10', "patient_id" =  E'167663', "created_by" =  E'527', "update_date" =  E'2019-02-08 14:11:47'
+WHERE "neural_appointment"."id" = E'719941'
+ERROR - 2019-02-08 14:11:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570

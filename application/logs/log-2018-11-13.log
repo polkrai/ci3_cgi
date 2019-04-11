@@ -1,0 +1,19 @@
+ERROR - 2018-11-13 01:07:24 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:08:07 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:09:24 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:11:56 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:12:38 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:38:38 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 01:39:05 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 05:14:15 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;data&quot; does not exist
+LINE 1: SELECT &quot;data&quot;
+               ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-13 05:14:15 --> Query error: ERROR:  column "data" does not exist
+LINE 1: SELECT "data"
+               ^ - Invalid query: SELECT "data"
+FROM "ci_session"
+WHERE "id" = 'htv8ddjtgfs902ri2lrttdg8slcl15ac'
+AND "ip_address" = '::1'
+ERROR - 2018-11-13 06:40:03 --> 404 Page Not Found: /index
+ERROR - 2018-11-13 09:31:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-13 09:31:30 --> Could not find the language line "admin dashboard jsi18n-sample"

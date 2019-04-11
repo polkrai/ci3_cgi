@@ -1,0 +1,271 @@
+/* Main body */
+body {
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+/* Navbar and menus */
+.dropdown-header {
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 8px;
+  margin-left: -10px; }
+
+.navbar-brand > i {
+  vertical-align: middle;
+  font-size: 25px;
+  color: #FFFFFF; }
+
+.navbar-inverse .navbar-brand {
+  color: #2C76B4; }
+
+.navbar-inverse .navbar-brand:hover {
+  color: #2C76B4; }
+
+.navbar-inverse .navbar-brand:focus {
+  color: #2C76B4; }
+
+/* Home page header image with expansion */
+.header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white; }
+
+.header h1, .header h2 {
+  color: white;
+  background-color: transparent;
+  text-align: center; }
+
+@media (max-width: 767px) {
+  h1, h2, h3, h4 {
+    text-align: center; } }
+
+@media (min-width: 0px) {
+  .header {
+    background: #005363 url('/static/img/header-s.jpg') top center;
+    background-size: cover; }
+  .header h1 {
+    font-size: 55px; }
+  .header h2 {
+    font-size: 30px; }
+  .header p {
+    font-size: 15px; }
+  #illustration {
+    margin-bottom: -130px; }
+  .expand img {
+    margin-bottom: 120px !important;
+    margin-top: -100px !important; } }
+
+@media (min-width: 482px) {
+  .header {
+    background: #005363 url('/static/img/header-m.jpg') top center;
+    background-size: cover; }
+  .header h1 {
+    font-size: 55px; }
+  .header h2 {
+    font-size: 30px; }
+  .header p {
+    font-size: 15px; }
+  #illustration {
+    margin-bottom: -260px; }
+  .expand img {
+    margin-bottom: 200px !important;
+    margin-top: -225px !important; } }
+
+@media (min-width: 768px) {
+  .header {
+    background: #005363 url('/static/img/header-m.jpg') top center;
+    background-size: cover; }
+  .header h1 {
+    font-size: 55px; }
+  .header h2 {
+    font-size: 20px; }
+  .header p {
+    font-size: 15px; }
+  .header .lead {
+    font-size: 22px; }
+  #illustration {
+    margin-bottom: -310px; }
+  .expand img {
+    margin-bottom: 300px !important;
+    margin-top: -260px !important; } }
+
+@media (min-width: 992px) {
+  .header {
+    background: #005363 url('/static/img/header-l.jpg') top center;
+    background-size: cover; }
+  .header h1 {
+    font-size: 55px;
+    margin-top: 50px; }
+  .header h2 {
+    font-size: 20px;
+    margin-bottom: 40px; }
+  .header p {
+    font-size: 15px; }
+  #illustration {
+    margin-bottom: -400px; }
+  .expand img {
+    margin-bottom: 400px !important;
+    margin-top: -300px !important; }
+  .space-before {
+    padding-top: 40px; }
+  .space-after {
+    padding-bottom: 40px; } }
+
+#illustration {
+  z-index: 1;
+  text-align: center;
+  width: 100%; }
+
+#illustration img {
+  max-width: 100%;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  transition: all 0.8s; }
+
+.expand img {
+  margin-bottom: 400px;
+  margin-top: -300px; }
+
+.content {
+  position: relative;
+  z-index: 999;
+  margin-bottom: 40px;
+  background: #fff; }
+
+/* END: Home page header image with expansion */
+/* HTML anchor offset */
+:target:before {
+  content: "";
+  display: block;
+  height: 60px;
+  /* fixed header height*/
+  margin: -60px 0 0;
+  /* negative fixed header height */ }
+
+/* Side-bar borders */
+.sidebar {
+  margin-top: 20px; }
+
+.sidebar-left {
+  margin-left: 0px; }
+
+.sidebar-right {
+  margin-right: 0px; }
+
+/* Title styles */
+h1 {
+  display: block;
+  text-align: left;
+  margin-bottom: 20px;
+  background-color: #2C76B4;
+  border-radius: 5px;
+  padding: 5px 7px;
+  color: #FFFFFF;
+  font-size: 30px; }
+
+h2 {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #2C76B4;
+  font-size: 20px; }
+
+h3 {
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 16px; }
+
+h4 {
+  text-align: left;
+  margin-bottom: 6px;
+  font-size: 14px; }
+
+/* Quicklinks box */
+.quicklinks {
+  text-align: center; }
+
+.quicklinks h2 {
+  text-align: center;
+  margin-top: 0px !important;
+  margin-bottom: 20px !important; }
+
+.quicklinks p {
+  font-size: 15px !important; }
+
+.quicklinks i {
+  font-size: 40px !important;
+  margin-top: 20px;
+  color: #000000 !important; }
+
+/* Downloads box */
+.downloads {
+  font-size: 1.2em; }
+
+.downloads ul {
+  margin-bottom: 0px;
+  line-height: 2em; }
+
+.downloads i {
+  line-height: 2em; }
+
+/* Version box */
+.version {
+  text-align: center;
+  margin-top: 30px; }
+
+.version p {
+  font-size: 16px !important;
+  margin-bottom: 0px; }
+
+.version a {
+  font-weight: bolder !important; }
+
+/* Table-like layout */
+.table {
+  display: table;
+  width: 100%; }
+
+.table .row {
+  display: table-row; }
+
+.table .row .cell {
+  display: table-cell; }
+
+/* Terminal-like code display */
+.terminal {
+  background-color: #000000;
+  color: #47d147; }
+
+/* Warning bars */
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+  padding: 5px; }
+
+/*
+ FontAwesome have removed support for mfizz icon support for Apple, Windows, Linux etc
+ So we need to handle it manuaaly and we will redirect mfizz icon to fontawesome icon
+ fa-apple, fa-linux, fa-windows.
+*/
+.icon-apple:before,
+.icon-windows:before,
+.icon-linux:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-apple:before {
+  content: "\f179"; }
+
+.icon-windows:before {
+  content: "\f17a"; }
+
+.icon-linux:before {
+  content: "\f17c"; }
+
+/*# sourceMappingURL=../../../static/COMPILED/css/pgaweb.css.map */

@@ -1,0 +1,385 @@
+ERROR - 2018-11-28 01:16:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 01:16:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 01:16:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:22:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:22:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:23:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:23:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:23:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:23:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:27:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:31:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:41:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:42:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:43:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:43:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:43:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:46:22 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 04:49:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:51:19 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 04:54:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 04:56:42 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:01:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:01:13 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column neural_appointment.deletedx does not exist
+LINE 9: AND &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;deletedx&quot; = 'f'
+            ^
+HINT:  Perhaps you meant to reference the column &quot;neural_appointment.deleted&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 05:01:13 --> Query error: ERROR:  column neural_appointment.deletedx does not exist
+LINE 9: AND "frontmed"."neural_appointment"."deletedx" = 'f'
+            ^
+HINT:  Perhaps you meant to reference the column "neural_appointment.deleted". - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."user_id" = '85'
+AND to_char(frontmed.neural_appointment.appointment_date, 'YYYY-MM-DD') = '2018-11-30'
+AND "frontmed"."neural_appointment"."deletedx" = 'f'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-28 05:03:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:05:12 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:11:00 --> Severity: Parsing Error --> syntax error, unexpected '' || users.lastname AS doctorn' (T_CONSTANT_ENCAPSED_STRING) /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/controllers/Appointment.php 91
+ERROR - 2018-11-28 05:12:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:12:32 --> Severity: Warning --> pg_query(): Query failed: ERROR:  table name &quot;users&quot; specified more than once /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 05:12:32 --> Query error: ERROR:  table name "users" specified more than once - Invalid query: SELECT "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE to_char(frontmed.neural_appointment.appointment_date, 'YYYY-MM-DD') = '2018-11-30'
+AND "frontmed"."neural_appointment"."deleted" = 'f'
+GROUP BY "neural_appointment"."user_id", "users"."title", "users"."name", "users"."lastname", "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-28 05:15:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:15:25 --> Severity: Warning --> pg_query(): Query failed: ERROR:  GROUP BY &quot;doctorname&quot; is ambiguous
+LINE 9: ...ppointment_time&quot;, &quot;neural_appointment&quot;.&quot;user_id&quot;, &quot;doctornam...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 05:15:25 --> Query error: ERROR:  GROUP BY "doctorname" is ambiguous
+LINE 9: ...ppointment_time", "neural_appointment"."user_id", "doctornam...
+                                                             ^ - Invalid query: SELECT "neural_appointment"."user_id", doctors.title || doctors.name || ' ' || doctors.lastname AS doctorname, "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "jvkk"."nano_user" AS "doctors" ON "doctors"."id" = "neural_appointment"."user_id"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE to_char(frontmed.neural_appointment.appointment_date, 'YYYY-MM-DD') = '2018-11-30'
+GROUP BY "neural_appointment"."user_id", "users"."title", "users"."name", "users"."lastname", "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-28 05:16:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:16:52 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:17:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:17:43 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:18:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:18:48 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:19:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:19:35 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:20:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:20:39 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:21:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:21:48 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:22:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:22:25 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:23:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:23:47 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:25:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:25:23 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:25:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:25:33 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:25:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:25:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:25:42 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:29:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:29:33 --> Severity: Parsing Error --> syntax error, unexpected ''date_select\'))?$this->input-' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:30:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:30:30 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:31:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:31:17 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:31:21 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:31:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:31:48 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:31:51 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:33:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:33:54 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:33:57 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:34:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:34:47 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:34:49 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:35:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:35:08 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:35:10 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:37:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:37:32 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:37:35 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:39:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:39:17 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:39:20 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:39:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:39:29 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:39:32 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:39:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:39:37 --> Severity: Notice --> Use of undefined constant today - assumed 'today' /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 183
+ERROR - 2018-11-28 05:39:39 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:41:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:41:24 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:49:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:50:05 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:51:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:51:29 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:55:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:55:39 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:56:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:57:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 05:57:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 05:57:36 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:02:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:02:04 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:02:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:02:55 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:05:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:05:34 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:06:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:06:21 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:13:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:13:28 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:13:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:14:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:14:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:14:30 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:15:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:15:13 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:16:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:16:21 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:16:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:16:53 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:19:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:19:56 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:20:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:20:27 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:20:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:21:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:24:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:24:21 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:24:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:24:26 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:24:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:24:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:24:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:24:52 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:29:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:29:43 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:32:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:32:35 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:32:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:32:53 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:32:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:32:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:38:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:38:33 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:38:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:38:45 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:43:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:43:52 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:46:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:46:22 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:47:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:47:56 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:49:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:49:31 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:50:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:51:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:51:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:51:40 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:51:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:51:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:51:53 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:51:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:52:06 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:52:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:52:57 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:53:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:53:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:53:07 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:58:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 06:58:38 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 06:59:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:02:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:02:18 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 07:02:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:03:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:03:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:04:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:04:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:04:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:05:18 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 07:05:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:05:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:06:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:07:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:07:41 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointmentx&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;neural_appointmentx&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 07:07:41 --> Query error: ERROR:  relation "frontmed.neural_appointmentx" does not exist
+LINE 2: FROM "frontmed"."neural_appointmentx"
+             ^ - Invalid query: SELECT "neural_appointment"."user_id", doctors.title || doctors.name || ' ' || doctors.lastname AS doctorname
+FROM "frontmed"."neural_appointmentx"
+LEFT JOIN "jvkk"."nano_user" AS "doctors" ON "doctors"."id" = "neural_appointment"."user_id"
+WHERE to_char(neural_appointment.appointment_date, 'YYYY-MM-DD') = '2018-11-28'
+GROUP BY "neural_appointment"."user_id", "doctors"."title", "doctors"."name", "doctors"."lastname"
+ORDER BY "neural_appointment"."user_id"
+ERROR - 2018-11-28 07:12:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:12:12 --> Severity: Notice --> Undefined variable: date_select /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/content_left/calendar.php 3
+ERROR - 2018-11-28 07:12:23 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 07:13:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:14:41 --> 404 Page Not Found: /index
+ERROR - 2018-11-28 07:14:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:14:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 07:15:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 17:05:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '4'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '5'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '9'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '6'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '10'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '7'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '11'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC
+ERROR - 2018-11-28 18:05:08 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointment&quot; does not exist
+LINE 5: LEFT JOIN &quot;frontmed&quot;.&quot;neural_appointment&quot; AS &quot;appointment&quot; O...
+                  ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-28 18:05:08 --> Query error: ERROR:  relation "frontmed.neural_appointment" does not exist
+LINE 5: LEFT JOIN "frontmed"."neural_appointment" AS "appointment" O...
+                  ^ - Invalid query: SELECT "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, "nano_queue_log"."station_id", "appointment"."id" AS "appointment_id", "nano_queue_log"."nano_queue_id" AS "queue_id"
+FROM "jvkk"."nano_queue_log"
+JOIN "medrec"."nano_visit" AS "visit" ON "visit"."vn" = "nano_queue_log"."vn"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "visit"."id_patient"
+LEFT JOIN "frontmed"."neural_appointment" AS "appointment" ON "appointment"."visit_id" = "visit"."id"
+WHERE to_char(nano_queue_log.date_add, 'YYYY-MM-DD') = '2018-11-28'
+AND "nano_queue_log"."com_id1" = '10'
+AND "nano_queue_log"."com_id2" = '27'
+AND "nano_queue_log"."action_id" = '26'
+AND "nano_queue_log"."station_id" = '31'
+GROUP BY "nano_queue_log"."vn_id", "nano_queue_log"."vn", "patient"."hn", "patient"."pa_pre_name", "patient"."pa_name", "patient"."pa_lastname", "nano_queue_log"."station_id", "appointment"."id", "nano_queue_log"."nano_queue_id"
+ORDER BY "nano_queue_log"."vn" ASC

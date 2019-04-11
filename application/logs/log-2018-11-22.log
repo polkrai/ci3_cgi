@@ -1,0 +1,161 @@
+ERROR - 2018-11-22 04:27:53 --> Severity: Notice --> Undefined index: UTC /Library/WebServer/Documents/miracle/ci3_cgi/application/core/Med_Controller.php 62
+ERROR - 2018-11-22 04:27:53 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid /Library/WebServer/Documents/miracle/ci3_cgi/application/core/Med_Controller.php 62
+ERROR - 2018-11-22 04:27:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:34:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:35:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:36:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:36:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:36:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:36:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:37:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:38:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 04:38:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 08:31:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:10:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:10:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:10:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:13:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:16:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:16:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 09:18:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 17:19:31 --> 404 Page Not Found: ../modules/Appointment/controllers/Appointment/index.php
+ERROR - 2018-11-22 22:07:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-22 22:09:07 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;NULL&quot;
+LINE 1: ... VALUES ('2018-12-21', '10:30', '536', 'Comment', 'NULL', '1...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-22 22:09:07 --> Query error: ERROR:  invalid input syntax for integer: "NULL"
+LINE 1: ... VALUES ('2018-12-21', '10:30', '536', 'Comment', 'NULL', '1...
+                                                             ^ - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-12-21', '10:30', '536', 'Comment', 'NULL', '1815745', '31669', '486')
+ERROR - 2018-11-22 23:25:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php:148) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-11-22 23:25:25 --> Severity: Parsing Error --> syntax error, unexpected ',' /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 148
+ERROR - 2018-11-22 23:26:20 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 21
+ERROR - 2018-11-22 23:26:20 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 25
+ERROR - 2018-11-22 23:26:20 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:26:20 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:26:20 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:26:20 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:26:20 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:26:20 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:27:01 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 21
+ERROR - 2018-11-22 23:27:01 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 25
+ERROR - 2018-11-22 23:27:01 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:27:01 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:27:01 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:27:01 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:27:01 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:27:01 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:27:10 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 21
+ERROR - 2018-11-22 23:27:10 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 25
+ERROR - 2018-11-22 23:27:10 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:27:10 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:27:10 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:27:10 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:27:10 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:27:10 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:31:05 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 21
+ERROR - 2018-11-22 23:31:05 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 25
+ERROR - 2018-11-22 23:31:05 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:31:05 --> Severity: Notice --> Trying to get property of non-object /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:31:05 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:31:05 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:31:05 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:31:05 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:33:01 --> Severity: Notice --> Undefined property: stdClass::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:33:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:33:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:33:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:33:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:34:01 --> Severity: Notice --> Undefined property: stdClass::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 29
+ERROR - 2018-11-22 23:34:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:34:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:34:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:34:01 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:34:25 --> Severity: Notice --> Undefined property: stdClass::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 30
+ERROR - 2018-11-22 23:34:25 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:34:25 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:34:25 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:34:25 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:35:32 --> Severity: Notice --> Undefined property: CI::$hn /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:32 --> Severity: Notice --> Undefined property: CI::$patient_name /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:32 --> Severity: Notice --> Undefined property: CI::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:32 --> Severity: Notice --> Undefined property: CI::$appointment_time /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:32 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:35:32 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:35:32 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:35:32 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:35:48 --> Severity: Notice --> Undefined property: CI::$hn /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:48 --> Severity: Notice --> Undefined property: CI::$patient_name /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:48 --> Severity: Notice --> Undefined property: CI::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:48 --> Severity: Notice --> Undefined property: CI::$appointment_time /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:35:48 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:35:48 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:35:48 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:35:48 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:36:57 --> Severity: Notice --> Undefined property: CI::$patient_name /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:36:57 --> Severity: Notice --> Undefined property: CI::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:36:57 --> Severity: Notice --> Undefined property: CI::$appointment_time /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Model.php 77
+ERROR - 2018-11-22 23:36:57 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:36:57 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:36:57 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:36:57 --> Severity: Warning --> date() expects parameter 2 to be long, string given /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:37:26 --> Severity: Error --> Call to undefined method stdClass::row() /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 10
+ERROR - 2018-11-22 23:37:41 --> Severity: Notice --> Undefined property: stdClass::$appointment_date /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/views/print_appointment.php 30
+ERROR - 2018-11-22 23:37:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:37:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:37:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:37:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:38:36 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:38:36 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:38:36 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:38:36 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:41:41 --> Severity: Warning --> pg_query(): Query failed: ERROR:  function to_char(text, unknown) does not exist
+LINE 1: SELECT &quot;neural_appointment&quot;.&quot;comment&quot;, to_char(neural_appoin...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-22 23:41:41 --> Query error: ERROR:  function to_char(text, unknown) does not exist
+LINE 1: SELECT "neural_appointment"."comment", to_char(neural_appoin...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts. - Invalid query: SELECT "neural_appointment"."comment", to_char(neural_appointment.appointment_date ||  ' ' || neural_appointment.appointment_time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, "neural_appointment"."appointment_time", "users"."id" AS "user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "users"."id", "doctorname", "hn", "patient_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-22 23:42:59 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:42:59 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:42:59 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:42:59 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:44:05 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:44:05 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:44:05 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:44:05 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:44:08 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:44:08 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:44:08 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:44:08 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:45:13 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:45:13 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:45:13 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:45:13 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:45:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:45:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:45:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:45:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:46:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 150
+ERROR - 2018-11-22 23:46:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 151
+ERROR - 2018-11-22 23:46:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 152
+ERROR - 2018-11-22 23:46:41 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:47:37 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:47:37 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 154
+ERROR - 2018-11-22 23:47:37 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 155
+ERROR - 2018-11-22 23:47:37 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 156
+ERROR - 2018-11-22 23:47:50 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:47:50 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 154
+ERROR - 2018-11-22 23:47:50 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 155
+ERROR - 2018-11-22 23:47:50 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 156
+ERROR - 2018-11-22 23:48:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153
+ERROR - 2018-11-22 23:48:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 154
+ERROR - 2018-11-22 23:48:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 155
+ERROR - 2018-11-22 23:48:16 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 156
+ERROR - 2018-11-22 23:50:09 --> Severity: Notice --> A non well formed numeric value encountered /Library/WebServer/Documents/miracle/ci3_cgi/application/helpers/MY_date_helper.php 153

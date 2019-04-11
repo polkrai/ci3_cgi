@@ -1,0 +1,21 @@
+ERROR - 2019-03-30 16:53:05 --> Could not find the language line "core error session_language"
+ERROR - 2019-03-30 16:53:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-30 16:59:26 --> Could not find the language line "core error session_language"
+ERROR - 2019-03-30 16:59:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-30 17:41:53 --> Could not find the language line "core error session_language"
+ERROR - 2019-03-30 17:41:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-30 17:54:30 --> Query error: Table 'db_p4p.performantx' doesn't exist - Invalid query: SELECT `per_id`, `per_no`, `person_id`, `office_id`, `title_id`, `minor_id`, `group_id`, `brand_id`, `subone_id`, `per_count`, SUBSTR(`per_date`, 1, 5) AS `per_date`, `per_month`, `per_year`, `job_id`, `shift_id`, `per_check`, `ward_id`
+FROM `performantx`
+WHERE `person_id` = '1401600011548'
+AND `per_month` = '10'
+AND `per_year` = '2566'
+ERROR - 2019-03-30 17:58:11 --> Query error: Table 'db_p4p.performantx' doesn't exist - Invalid query: SELECT `per_id`, `per_no`, `person_id`, `office_id`, `title_id`, `minor_id`, `group_id`, `brand_id`, `subone_id`, `per_count`, SUBSTR(`per_date`, 1, 5) AS `per_date`, `per_month`, `per_year`, `job_id`, `shift_id`, `per_check`, `ward_id`
+FROM `performantx`
+WHERE `person_id` = '1401600011548'
+AND `per_month` = '09'
+AND `per_year` = '2566'
+ERROR - 2019-03-30 18:01:26 --> Query error: Table 'db_p4p.performantx' doesn't exist - Invalid query: SELECT `per_id`, `per_no`, `person_id`, `office_id`, `title_id`, `minor_id`, `group_id`, `brand_id`, `subone_id`, `per_count`, SUBSTR(`per_date`, 1, 5) AS `per_date`, `per_month`, `per_year`, `job_id`, `shift_id`, `per_check`, `ward_id`
+FROM `performantx`
+WHERE `person_id` = '1401600011548'
+AND `per_month` = '09'
+AND `per_year` = '2556'

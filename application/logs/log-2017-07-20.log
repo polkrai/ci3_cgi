@@ -1,0 +1,41 @@
+ERROR - 2017-07-20 21:36:03 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) C:\AppServ\www\ci3_fire\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2017-07-20 21:36:03 --> Unable to connect to the database
+ERROR - 2017-07-20 21:49:32 --> Severity: Error --> Call to undefined method MY_Loader::_ci_object_to_array() C:\AppServ\www\ci3_fire\application\third_party\MX\Loader.php 294
+ERROR - 2017-07-20 21:50:23 --> Severity: Error --> Call to undefined method MY_Loader::_ci_object_to_array() C:\AppServ\www\ci3_fire\application\third_party\MX\Loader.php 294
+ERROR - 2017-07-20 15:57:54 --> Severity: Error --> Class 'MY_Model' not found C:\AppServ\www\ci3_fire\application\modules\Cgi\models\Mdl_cgi.php 3
+ERROR - 2017-07-20 16:04:39 --> Severity: Error --> Call to undefined method CI_Output::set_template() C:\AppServ\www\ci3_fire\application\modules\Cgi\controllers\Cgi.php 18
+ERROR - 2017-07-20 22:36:57 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;settings&quot; does not exist
+LINE 3:             FROM settings
+                         ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-20 22:36:57 --> Query error: ERROR:  relation "settings" does not exist
+LINE 3:             FROM settings
+                         ^ - Invalid query: 
+            SELECT *
+            FROM settings
+            ORDER BY sort_order ASC
+        
+ERROR - 2017-07-20 22:40:48 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;settings&quot; does not exist
+LINE 3:             FROM settings
+                         ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-20 22:40:48 --> Query error: ERROR:  relation "settings" does not exist
+LINE 3:             FROM settings
+                         ^ - Invalid query: 
+            SELECT *
+            FROM settings
+            ORDER BY sort_order ASC
+        
+ERROR - 2017-07-20 22:54:22 --> Severity: Warning --> Invalid argument supplied for foreach() C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 31
+ERROR - 2017-07-20 22:54:22 --> Severity: Notice --> Undefined property: stdClass::$timezones C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:54:22 --> Severity: Notice --> Undefined index:  C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:54:22 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 31
+ERROR - 2017-07-20 22:58:44 --> Severity: Notice --> Undefined property: stdClass::$timezones C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:44 --> Severity: Notice --> Undefined index:  C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:44 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 31
+ERROR - 2017-07-20 22:58:44 --> Severity: Notice --> Undefined property: stdClass::$timezones C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:44 --> Severity: Notice --> Undefined index:  C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:45 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid C:\AppServ\www\ci3_fire\application\core\MY_Controller.php 45
+ERROR - 2017-07-20 22:58:45 --> Severity: Notice --> Undefined property: stdClass::$site_name C:\AppServ\www\ci3_fire\htdocs\themes\admin\template.php 13
+ERROR - 2017-07-20 22:58:45 --> Severity: Notice --> Undefined property: stdClass::$site_name C:\AppServ\www\ci3_fire\htdocs\themes\admin\template.php 42
+ERROR - 2017-07-20 22:58:45 --> Severity: Notice --> Undefined property: stdClass::$site_name C:\AppServ\www\ci3_fire\htdocs\themes\admin\template.php 129
