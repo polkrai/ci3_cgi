@@ -1,0 +1,215 @@
+ERROR - 2019-01-10 00:00:46 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:00:46 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:01:13 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '', 
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-01-10 00:01:13 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '', 
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by)
+					SELECT (id + 1) AS last_id, 
+					'2019-01-09', 
+					'10:00', 
+					'78', 
+					'', 
+					'10', 
+					'1828699', 
+					'', 
+					'486'
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2019-01-10 00:01:13 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2019-01-10 00:01:16 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:01:16 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:02:21 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:02:21 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:06:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:06:56 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:10:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:10:31 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:15:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:15:53 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:18:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:19:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:19:45 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:20:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:20:42 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:20:54 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:22:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:22:12 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:22:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:22:26 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:26:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:26:22 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:26:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:27:09 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:27:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:28:09 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:29:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:30:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:30:50 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:33:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:33:52 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:36:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:36:56 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:40:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:41:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:41:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:41:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:42:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:42:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:44:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:46:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:46:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:46:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:47:54 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:47:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:48:01 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:48:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:48:18 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:48:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:49:02 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:49:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:49:18 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 00:49:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:51:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 00:54:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:00:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:02:18 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 01:03:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:05:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:05:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:09:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:10:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:11:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:12:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:14:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:17:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:17:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:17:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:18:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:19:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:20:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:21:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:21:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:21:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:22:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:24:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:25:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:27:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:28:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 01:29:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:05:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:05:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:06:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:07:11 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:07:15 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:10:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:10:39 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:18:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:18:07 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:18:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:18:53 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:20:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:21:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:21:19 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:24:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:24:15 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:24:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:24:54 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:30:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:34:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:34:14 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 02:34:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:38:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:41:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:43:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 02:59:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:02:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:09:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:10:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:10:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:11:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:12:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:12:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:12:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:13:20 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:13:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:13:29 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:13:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:14:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:14:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:14:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:15:00 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:15:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:15:55 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:18:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:18:21 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:19:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:19:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:19:24 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:23:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:23:27 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:27:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:29:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:29:25 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:29:49 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:29:49 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:30:58 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointmentx&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;neural_appointmentx&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-01-10 03:30:58 --> Query error: ERROR:  relation "frontmed.neural_appointmentx" does not exist
+LINE 2: FROM "frontmed"."neural_appointmentx"
+             ^ - Invalid query: SELECT "neural_appointment"."id" AS "appointment_id", "appointment_date", "comment", to_char(appointment_date, 'YYYY-MM-DD') ||  ' ' || to_char(appointment_time, 'HH24:MI') AS appointment_date_time, to_char(appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(appointment_date, 'YYYY-MM-DD') AS appointment_date_en, to_char(appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointmentx"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = E'723678'
+GROUP BY "neural_appointment"."id", "neural_appointment"."comment", "appointment_date", "appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "appointment_time" ASC
+ERROR - 2019-01-10 03:30:58 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2019-01-10 03:31:47 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointmentx&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;neural_appointmentx&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-01-10 03:31:47 --> Query error: ERROR:  relation "frontmed.neural_appointmentx" does not exist
+LINE 2: FROM "frontmed"."neural_appointmentx"
+             ^ - Invalid query: SELECT "neural_appointment"."id" AS "appointment_id", "appointment_date", "comment", to_char(appointment_date, 'YYYY-MM-DD') ||  ' ' || to_char(appointment_time, 'HH24:MI') AS appointment_date_time, to_char(appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(appointment_date, 'YYYY-MM-DD') AS appointment_date_en, to_char(appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointmentx"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = E'723813'
+GROUP BY "neural_appointment"."id", "neural_appointment"."comment", "appointment_date", "appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "appointment_time" ASC
+ERROR - 2019-01-10 03:31:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2019-01-10 03:38:29 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:38:29 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:39:56 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:39:56 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:45:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:45:31 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:45:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:45:52 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:46:22 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:46:22 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:47:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:50:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:51:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:55:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:55:16 --> 404 Page Not Found: /index
+ERROR - 2019-01-10 03:55:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:57:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:57:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 03:58:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:09:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:10:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:10:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:13:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:13:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:14:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:16:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:17:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:17:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:22:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-10 04:22:43 --> Could not find the language line "admin dashboard jsi18n-sample"

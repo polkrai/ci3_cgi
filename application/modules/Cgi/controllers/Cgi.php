@@ -19,11 +19,17 @@ class Cgi extends CGI_Controller {
 		
 		$content_data = array();
 		
+<<<<<<< HEAD
 		$this->add_js_theme( "dashboard_i18n.js", TRUE)->set_title('รายชื่อผู้ป่วยรอการประเมิณ CGI');
 		
 		$this->mdl_queue->paginate(site_url('cgi/index'), $page);
 		
 		$this->mdl_queue->filter_select()->get();
+=======
+		$this->add_js_theme("dashboard_i18n.js", TRUE)->set_title('รายชื่อผู้ป่วยรอการประเมิณ CGI');
+		
+		$this->mdl_queue->filter_select()->paginate(site_url('cgi/index'), $page);
+>>>>>>> 13a7918... first commit
 		
 		$content_data = array('queues' => $this->mdl_queue->result());
 		
@@ -67,7 +73,11 @@ class Cgi extends CGI_Controller {
 		redirect('Cgi/index');
 	}
 	
+<<<<<<< HEAD
 	public function search () {
+=======
+	public function search ($page=0) {
+>>>>>>> 13a7918... first commit
 		
 		$this->load->helper('date');
 		
@@ -77,9 +87,15 @@ class Cgi extends CGI_Controller {
 		
 		if ($this->input->get_post('btn_submit') AND $this->input->get_post('txtsearch')) {		
 			
+<<<<<<< HEAD
 			$this->mdl_patient->filter_select($this->input->get_post('txtsearch'));
 			
 			$content_data = array('patients' => $this->mdl_patient->get()->result());
+=======
+			$this->mdl_patient->filter_select()->paginate(site_url('Cgi/search'), $page);
+			
+			$content_data = array('patients' => $this->mdl_patient->result());
+>>>>>>> 13a7918... first commit
 		}
 		
         $data = $this->includes;
@@ -93,20 +109,34 @@ class Cgi extends CGI_Controller {
 		
 		if ($this->input->post('btn_cancel')) {
 			
+<<<<<<< HEAD
 			redirect('Cgi/physician');
+=======
+			redirect('Cgi/index');
+>>>>>>> 13a7918... first commit
 		}
 
         if ($this->mdl_cgi->run_validation()) {
 	        
+<<<<<<< HEAD
 	        print_r ($_POST['clinic']);
 	        
 	        exit();
+=======
+	        //print_r ($_POST['clinic']);
+	        
+	        //exit();
+>>>>>>> 13a7918... first commit
         	
         	$id = $this->mdl_cgi->save($id);        	
         	
         	if ($this->input->get_post('from') == "index") {
 				
+<<<<<<< HEAD
 				redirect('Cgi/physician');
+=======
+				redirect("Cgi/index/{$this->input->get_post('page')}");
+>>>>>>> 13a7918... first commit
 			}
         	else {
 				
@@ -155,9 +185,15 @@ class Cgi extends CGI_Controller {
 
 		$this->add_js_theme( "dashboard_i18n.js", TRUE)->set_title('ประวัติการประเมิณ CGI');
 		
+<<<<<<< HEAD
 		$this->mdl_cgi->paginate(site_url('cgi/histoy'), $page);
 		
 		$this->mdl_cgi->filter_select($this->input->get_post('hn'))->get();
+=======
+		$this->mdl_cgi->filter_select($this->input->get_post('hn'))->paginate(site_url('cgi/histoy'), $page);
+		
+		//$this->mdl_cgi->filter_select($this->input->get_post('hn'))->get();
+>>>>>>> 13a7918... first commit
 		
 		$this->mdl_header->filter_select($this->input->get_post('hn'));
 		

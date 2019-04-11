@@ -143,8 +143,17 @@ class MY_Model extends CI_Model {
         $this->load->helper('url');
         $this->load->library('pagination');
 
+<<<<<<< HEAD
         $this->offset = $offset;
         $per_page     = $this->default_limit;
+=======
+        //$this->offset = $offset;
+        //$per_page     = $this->default_limit;
+        
+        $this->offset = $offset;
+        $default_list_limit = 12; //$this->mdl_settings->setting('default_list_limit');
+        $per_page = (empty($default_list_limit) ? $this->default_limit : $default_list_limit);
+>>>>>>> 13a7918... first commit
 
         $this->set_defaults();
         $this->run_filters();
@@ -152,7 +161,11 @@ class MY_Model extends CI_Model {
         $this->db->limit($per_page, $this->offset);
         $this->query = $this->db->get($this->table);
 
+<<<<<<< HEAD
         $this->total_rows      = $this->db->query("SELECT COUNT(*) AS num_rows")->row()->num_rows;
+=======
+        //$this->total_rows      = $this->db->query('SELECT CASE AS num_rows')->row()->num_rows; //$this->db->query("SELECT COUNT(*) AS num_rows")->row()->num_rows;
+>>>>>>> 13a7918... first commit
         $this->total_pages     = ceil($this->total_rows / $per_page);
         $this->previous_offset = $this->offset - $per_page;
         $this->next_offset     = $this->offset + $per_page;
@@ -182,6 +195,14 @@ class MY_Model extends CI_Model {
     {
         return $this->where($this->primary_key, $id)->get()->row();
     }
+<<<<<<< HEAD
+=======
+    
+    public function get_by_check_out_date($date)
+    {
+        return $this->where($this->edit_key, $date)->get()->result();
+    }
+>>>>>>> 13a7918... first commit
 
     public function save($id = NULL, $db_array = NULL)
     {
@@ -215,8 +236,13 @@ class MY_Model extends CI_Model {
                     }
                 }
             }
+<<<<<<< HEAD
             elseif ($this->date_modified_field)
             {
+=======
+            elseif ($this->date_modified_field) {
+            	
+>>>>>>> 13a7918... first commit
                 if (is_array($db_array))
                 {
                     $db_array[$this->date_modified_field] = $datetime;
@@ -282,6 +308,40 @@ class MY_Model extends CI_Model {
         $this->db->where($this->primary_key, $id);
         $this->db->delete($this->table);
     }
+<<<<<<< HEAD
+=======
+    
+     /**
+     * Deletes a record based on primary key value.
+     * $this->model_name->deleted(5);
+     */
+    public function deleted($id = NULL, $db_array = NULL)
+    {
+    	if (!$db_array)
+        {
+            $db_array = $this->db_array();
+        }
+        
+        $datetime = date('Y-m-d H:i:s');
+        
+        if ($this->date_modified_field) {
+        	
+            if (is_array($db_array))  {
+            	
+                $db_array[$this->date_modified_field] = $datetime;
+            }
+            else {
+            	
+                $db_array->{$this->date_modified_field} = $datetime;
+            }
+        }
+
+        $this->db->where($this->primary_key, $id);
+        $this->db->update($this->table, $db_array);
+
+        return $id;
+    }
+>>>>>>> 13a7918... first commit
 
     /**
      * Returns the CI query result object.
@@ -327,6 +387,38 @@ class MY_Model extends CI_Model {
     {
         return $this->query->num_rows();
     }
+<<<<<<< HEAD
+=======
+    
+     /**
+     * Used to retrieve record by ID and populate $this->form_values.
+     * @param int $id 
+     * @return boolean
+     */
+    public function date_prep_form($date = NULL)
+    {
+        if (!$_POST and ($date))
+        {
+            $rows = $this->get_by_check_out_date($date);
+
+            if ($rows)
+            {
+                //foreach ($row as $key => $value)
+                //{
+                    $this->form_values = $rows;
+                //}
+                
+                return TRUE;
+            }
+            
+            return FALSE;
+        }
+        elseif (!$date) {
+        	
+            return TRUE;
+        }
+    }
+>>>>>>> 13a7918... first commit
 
     /**
      * Used to retrieve record by ID and populate $this->form_values.

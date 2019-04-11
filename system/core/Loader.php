@@ -321,6 +321,10 @@ class CI_Loader {
 		}
 
 		$model = ucfirst($model);
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 13a7918... first commit
 		if ( ! class_exists($model, FALSE))
 		{
 			foreach ($this->_ci_model_paths as $mod_path)

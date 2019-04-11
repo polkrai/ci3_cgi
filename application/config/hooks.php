@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+=======
+<?php defined('BASEPATH') OR exit('No direct script access allowed');
+>>>>>>> 13a7918... first commit
 
 /*
 | -------------------------------------------------------------------------

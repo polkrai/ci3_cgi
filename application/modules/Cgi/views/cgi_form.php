@@ -36,11 +36,19 @@
 			</div>
 
 			<div class="form-group">
+<<<<<<< HEAD
 				<label for="clinic">คลินิก:</label>
 				<br />
 				<select style="width: 220px;" id="clinic" name="clinic[]" multiple required >
 					<?php foreach ($clinics as $clinic) :?>
 					<option value="<?php echo $clinic->id?>" <?php echo ($this->mdl_cgi->form_value('clinic') == $clinic->id)?"selected":NULL?>><?php echo $clinic->clinic_name?></option>
+=======
+				<label for="clinic1">คลินิก:</label>
+				<br />
+				<select id="clinic1" name="clinic1" required >
+					<?php foreach ($clinics as $clinic) :?>
+					<option value="<?php echo $clinic->id?>" <?php echo ($this->mdl_cgi->form_value('clinic1') == $clinic->id)?"selected":NULL?>><?php echo $clinic->clinic_name?></option>
+>>>>>>> 13a7918... first commit
 					<?php endforeach;?>
 				</select>
 				<!-- <input type="text" class="form-control" id="clinic" name="clinic"> -->
@@ -49,7 +57,11 @@
 			<div class="form-group">
 		      <label for="cgi_score">คะแนน cgi:</label>
 		      <br />
+<<<<<<< HEAD
 			  <select class="selectpicker" id="cgi_score" name="cgi_score">
+=======
+			  <select class="selectpicker" id="cgi_score" name="cgi_score" required>
+>>>>>>> 13a7918... first commit
 				<option value="">เลือกคะแนน</option>
 				<?php foreach ($scores as $score) :?>
 				<option value="<?php echo $score->id?>" <?php echo ($this->mdl_cgi->form_value('cgi_score') == $score->id)?"selected":NULL?>><?php echo $score->id?></option>

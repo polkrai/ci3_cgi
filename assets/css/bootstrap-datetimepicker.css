@@ -192,7 +192,11 @@
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fdd49a), to(#fdf59a));
 	background-image: -webkit-linear-gradient(top, #fdd49a, #fdf59a);
 	background-image: -o-linear-gradient(top, #fdd49a, #fdf59a);
+<<<<<<< HEAD
 	background-image: linear-gradient(to bottom, #fdd49a, #fdf59a);
+=======
+	background-image: linear-gradient(top, #fdd49a, #fdf59a);
+>>>>>>> 13a7918... first commit
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdd49a', endColorstr='#fdf59a', GradientType=0);
 	border-color: #fdf59a #fdf59a #fbed50;
@@ -244,7 +248,11 @@
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
 	background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
 	background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+<<<<<<< HEAD
 	background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+=======
+	background-image: linear-gradient(top, #0088cc, #0044cc);
+>>>>>>> 13a7918... first commit
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
 	border-color: #0044cc #0044cc #002a80;
@@ -343,7 +351,11 @@
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
 	background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
 	background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+<<<<<<< HEAD
 	background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+=======
+	background-image: linear-gradient(top, #0088cc, #0044cc);
+>>>>>>> 13a7918... first commit
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0044cc', GradientType=0);
 	border-color: #0044cc #0044cc #002a80;
@@ -395,17 +407,26 @@
 	width: 145px;
 }
 
+<<<<<<< HEAD
 .datetimepicker th span.glyphicon {
 	pointer-events: none;
 }
 
 .datetimepicker thead tr:first-child th,
 .datetimepicker tfoot th {
+=======
+.datetimepicker thead tr:first-child th,
+.datetimepicker tfoot tr:first-child th {
+>>>>>>> 13a7918... first commit
 	cursor: pointer;
 }
 
 .datetimepicker thead tr:first-child th:hover,
+<<<<<<< HEAD
 .datetimepicker tfoot th:hover {
+=======
+.datetimepicker tfoot tr:first-child th:hover {
+>>>>>>> 13a7918... first commit
 	background: #eeeeee;
 }
 
@@ -415,4 +436,8 @@
 	cursor: pointer;
 	width: 14px;
 	height: 14px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 13a7918... first commit

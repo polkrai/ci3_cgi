@@ -1,0 +1,47 @@
+ERROR - 2019-01-02 02:08:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:09:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:10:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:12:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:14:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:14:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:16:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:18:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:19:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:19:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:22:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:23:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:23:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:24:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:27:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:27:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:29:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:30:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:34:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:39:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:40:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:42:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:46:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:46:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:46:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:48:11 --> Severity: Warning --> pg_query(): Query failed: ERROR:  date/time field value out of range: &quot;2018-11-31&quot;
+LINE 3:      '2018-11-31', 
+             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-02 02:48:11 --> Query error: ERROR:  date/time field value out of range: "2018-11-31"
+LINE 3:      '2018-11-31', 
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by)
+					SELECT (id + 1) AS last_id, 
+					'2018-11-31', 
+					'10:00', 
+					'661', 
+					'', 
+					'10', 
+					'1824706', 
+					'179169', 
+					'486'
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2019-01-02 02:50:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:51:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:52:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:54:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:56:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-02 02:57:24 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\application\third_party\MX\Modules.php 207

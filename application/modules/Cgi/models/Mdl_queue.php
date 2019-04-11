@@ -9,18 +9,31 @@ class Mdl_Queue extends Response_Model {
     public function __construct()
     {
         parent::__construct();
+<<<<<<< HEAD
+=======
+        
+        $this->total_rows = $this->filter_select()->get()->num_rows();
+>>>>>>> 13a7918... first commit
     }
 
 	public function default_select() {
 		
+<<<<<<< HEAD
         $this->db->select('jvkk.nano_queue.id AS queue_id, jvkk.nano_queue.cgi_record, nano_visit.id AS vn_id, nano_visit.vn, nano_visit.hn, nano_patient.*, cgi.id AS cgi_id, cgi.cgi_score');
+=======
+        $this->db->select('jvkk.nano_queue.id AS queue_id, jvkk.nano_queue.cgi_record, nano_visit.id AS vn_id, nano_visit.vn, nano_visit.hn, nano_patient.*');
+>>>>>>> 13a7918... first commit
     }
     
     public function default_join()
     {
         $this->db->join('medrec.nano_visit AS nano_visit', 'nano_visit.id = nano_queue.vn_id');
         $this->db->join('medrec.nano_patient AS nano_patient', 'nano_patient.id = nano_visit.id_patient');
+<<<<<<< HEAD
         $this->db->join('med.cgi AS cgi', 'cgi.vn_id = nano_queue.vn_id', 'left');
+=======
+        //$this->db->join('med.cgi AS cgi', 'cgi.vn_id = nano_queue.vn_id', 'left');
+>>>>>>> 13a7918... first commit
     }
 
     public function default_order_by()
@@ -28,6 +41,14 @@ class Mdl_Queue extends Response_Model {
         $this->db->order_by('jvkk.nano_queue.id ASC');
     }
     
+<<<<<<< HEAD
+=======
+    public function default_group_by()
+    {
+        //$this->db->group_by('jvkk.nano_queue.id ASC');
+    }
+    
+>>>>>>> 13a7918... first commit
     public function validation_rules()
     {
         return array(
@@ -39,9 +60,15 @@ class Mdl_Queue extends Response_Model {
     
     public function filter_select()
     {
+<<<<<<< HEAD
         $this->filter_where('jvkk.nano_queue.cgi_record', TRUE);
         //$this->filter_where('nano_visit.time_add >=', date('Y-m-d H:i:s'));
 		//$this->filter_where('nano_visit.time_add <=', date('Y-m-d H:i:s'));       
+=======
+        //$this->filter_where('jvkk.nano_queue.cgi_record', TRUE);
+        $this->filter_where('nano_visit.time_add >=', date('Y-m-d') . ' 00:00:00');
+		$this->filter_where('nano_visit.time_add <=', date('Y-m-d') . ' 23:59:59');       
+>>>>>>> 13a7918... first commit
         
         return $this;
     }

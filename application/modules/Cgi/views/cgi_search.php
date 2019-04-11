@@ -77,6 +77,13 @@
 
 </table>
 
+<<<<<<< HEAD
+=======
+<div class="pull-right">
+    <?php echo pager(site_url('Cgi/search'), 'mdl_patient'); ?>
+</div>
+
+>>>>>>> 13a7918... first commit
 <?php endif;?>
 
 <script>

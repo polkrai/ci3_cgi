@@ -4,8 +4,11 @@ require APPPATH."third_party/MX/Controller.php";
 
 class CGI_Controller extends MX_Controller {
 
+<<<<<<< HEAD
 	
 
+=======
+>>>>>>> 13a7918... first commit
 	public $user;
 
     public $settings;
@@ -24,6 +27,7 @@ class CGI_Controller extends MX_Controller {
 
 	
 
+<<<<<<< HEAD
 	public function __construct() {
 
 		
@@ -53,11 +57,32 @@ class CGI_Controller extends MX_Controller {
 		$this->settings = new stdClass();
 		
 
+=======
+	public function __construct() {		
+
+		parent::__construct();	
+
+		$this->load->database();	
+
+		$this->load->library(array('session', 'form_validation', 'pagination', 'email', 'jsi18n', 'redir'));
+		
+		$this->load->helper(array('url', 'file', 'directory', 'string', 'html', 'asset', 'form', 'uri', 'pager', 'trans'));
+		
+		$this->load->module('layout');		
+
+		$this->load->module('sessions');		
+
+		$settings = $this->settings_model->get_settings();		
+
+		$this->settings = new stdClass();
+		
+>>>>>>> 13a7918... first commit
         foreach ($settings as $setting)
         {
 
             $this->settings->{$setting['name']} = (@unserialize($setting['value']) !== FALSE) ? unserialize($setting['value']) : $setting['value'];
 
+<<<<<<< HEAD
         }
 
 		
@@ -70,10 +95,19 @@ class CGI_Controller extends MX_Controller {
 
 
 
+=======
+        }		
+
+        $this->settings->site_version = $this->config->item('site_version');		
+
+        $this->settings->root_folder  = $this->config->item('root_folder');
+
+>>>>>>> 13a7918... first commit
         // get current uri
 
         $this->current_uri = "/" . uri_string();
 
+<<<<<<< HEAD
 
 
         // set the time zone
@@ -85,13 +119,23 @@ class CGI_Controller extends MX_Controller {
         if (function_exists('date_default_timezone_set'))
 
         {
+=======
+        // set the time zone
+
+        $timezones = $this->config->item('timezones');	
+
+        if (function_exists('date_default_timezone_set')) {
+>>>>>>> 13a7918... first commit
 
             date_default_timezone_set($timezones[$this->settings->timezones]);
 
         }
 
+<<<<<<< HEAD
 		
 
+=======
+>>>>>>> 13a7918... first commit
 		 $this->add_external_css(
 
                 array(
@@ -217,7 +261,10 @@ class CGI_Controller extends MX_Controller {
 		$this->lang->load('ip', 'Thai');
         $this->lang->load('form_validation', 'Thai');
         $this->lang->load('custom', 'Thai');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13a7918... first commit
         $this->load->helper('language');
 
 	}

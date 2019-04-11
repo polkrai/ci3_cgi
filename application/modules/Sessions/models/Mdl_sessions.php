@@ -20,7 +20,11 @@ class Mdl_Sessions extends MY_Model {
 	
 	public $table = 'jvkk.nano_session';
 	
+<<<<<<< HEAD
     public $primary_key = 'jvkk.nano_session.id';
+=======
+    public $primary_key = 'jvkk.nano_session.id_sess';
+>>>>>>> 13a7918... first commit
 	
 	public function __construct()
     {
@@ -29,9 +33,17 @@ class Mdl_Sessions extends MY_Model {
 
     public function auth_session($id_sess)
     {
+<<<<<<< HEAD
         $this->db->join('jvkk.nano_user', 'jvkk.nano_user.id = jvkk.nano_session.session_user_id');
 
         $query = $this->db->get_where('jvkk.nano_session', array('id_sess' => $id_sess));
+=======
+    	$this->db->select('nano_session.session_user_id, nano_user.title_43_file, nano_user.name, nano_user.lastname, nano_user.group_id, nano_user.department_id, neural_user_group.name AS group_name');
+        $this->db->join('jvkk.nano_user', 'jvkk.nano_user.id = jvkk.nano_session.session_user_id');
+		$this->db->join('jvkk.neural_user_group', 'jvkk.neural_user_group.id = jvkk.nano_user.group_id', 'left');
+        
+		$query = $this->db->get_where('jvkk.nano_session', array('id_sess' => $id_sess));
+>>>>>>> 13a7918... first commit
 
         if ($query->num_rows() > 0) {
 			
@@ -43,6 +55,12 @@ class Mdl_Sessions extends MY_Model {
 				'full_name'		=> $session->title_43_file.$session->name . ' ' . $session->lastname,
 				'is_physician' 	=> ($session->group_id == 1)?TRUE:FALSE,
 				'station_id' 	=> $this->get_station(),
+<<<<<<< HEAD
+=======
+				'group_id' 		=> ($session->group_id == 1 OR $session->group_id == 2 OR $session->group_id == 5 OR $session->group_id == 10)?1:$session->group_id,
+				'department_id'	=> $session->department_id,
+				'group_name'	=> $session->group_name,
+>>>>>>> 13a7918... first commit
 				'logged_in'		=> TRUE
 			);
 
@@ -57,6 +75,30 @@ class Mdl_Sessions extends MY_Model {
 		}
     }
     
+<<<<<<< HEAD
+=======
+    public function auth_check_session($user_id) {
+
+		$this->db->select('session.id');
+	    	
+	    $this->db->where ('session.session_user_id', $user_id);
+	    	
+	    $result = $this->db->get ('jvkk.nano_session AS session');
+
+		if ($result->num_rows() > 0) {
+
+			return TRUE;
+
+		}
+		else {
+
+           return FALSE;
+
+		}
+
+	}
+    
+>>>>>>> 13a7918... first commit
     public function get_station () {
     	
 		$this->db->select ('id');

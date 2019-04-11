@@ -125,6 +125,23 @@ class Sessions extends MX_Controller {
 
         return FALSE;
     }
+<<<<<<< HEAD
+=======
+    
+    public function check_session () {
+    	
+    	$this->load->model('mdl_sessions');
+	    
+	    if ($this->mdl_sessions->auth_check_session($this->session->userdata('user_id')) AND $this->session->userdata('logged_in')) {
+		    
+		    echo "TRUE";
+	    }
+	    else {
+		    
+		    echo "FALSE";
+	    }
+    }
+>>>>>>> 13a7918... first commit
 
 }
 

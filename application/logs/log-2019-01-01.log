@@ -1,0 +1,27 @@
+ERROR - 2019-01-01 20:49:36 --> Could not find the language line "core error session_language"
+ERROR - 2019-01-01 20:49:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-01 20:50:55 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 14
+ERROR - 2019-01-01 20:53:01 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/1controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 16
+ERROR - 2019-01-01 20:53:42 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Testcontrollers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 16
+ERROR - 2019-01-01 20:54:28 --> Severity: Warning --> mkdir(): File exists C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 9
+ERROR - 2019-01-01 20:54:28 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 16
+ERROR - 2019-01-01 20:54:49 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 16
+ERROR - 2019-01-01 21:00:26 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:26 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:26 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:26 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 22
+ERROR - 2019-01-01 21:00:52 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:52 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:52 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:00:52 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 22
+ERROR - 2019-01-01 21:01:45 --> Severity: Warning --> mkdir(): File exists C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 9
+ERROR - 2019-01-01 21:01:45 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 15
+ERROR - 2019-01-01 21:01:45 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 15
+ERROR - 2019-01-01 21:01:45 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 15
+ERROR - 2019-01-01 21:01:45 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 24
+ERROR - 2019-01-01 21:02:35 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:02:35 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:02:35 --> Severity: Warning --> mkdir(): No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 13
+ERROR - 2019-01-01 21:02:35 --> Severity: Warning --> fopen(C:\Apache24\htdocs\miracle\ci3_cgi\application\modules/Test/controllers/Test.php): failed to open stream: No such file or directory C:\Apache24\htdocs\miracle\ci3_cgi\application\helpers\pages_creator_helper.php 23
+ERROR - 2019-01-01 21:09:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-01 21:09:23 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -13,13 +13,23 @@ class Mdl_Cgi extends Response_Model {
 	
 	public function default_select() {
 		
+<<<<<<< HEAD
         $this->db->select("cgi.*, to_char(cgi.created_date, 'DD/MM/YYYY') AS cgi_date, cgi_clinic.clinic_name, nano_visit.vn");
+=======
+        $this->db->select("cgi.*, to_char(cgi.created_date, 'DD/MM/YYYY') AS cgi_date, cgi_clinic.clinic_name, nano_visit.vn, users.name, users.lastname");
+>>>>>>> 13a7918... first commit
     }
 	
 	 public function default_join()
     {
+<<<<<<< HEAD
         $this->db->join('med.cgi_clinic AS cgi_clinic', 'cgi_clinic.id = cgi.clinic', 'left');
 		$this->db->join('medrec.nano_visit AS nano_visit', 'nano_visit.id = cgi.vn_id');
+=======
+        $this->db->join('med.cgi_clinic AS cgi_clinic', 'cgi_clinic.id = cgi.clinic1', 'left');
+		$this->db->join('medrec.nano_visit AS nano_visit', 'nano_visit.id = cgi.vn_id');
+		$this->db->join('jvkk.nano_user AS users', 'users.id = cgi.created_by');
+>>>>>>> 13a7918... first commit
     }
 
     public function default_order_by()
@@ -41,8 +51,13 @@ class Mdl_Cgi extends Response_Model {
                 'label' => trans('score'),
                 'rules' => 'required'
             ),
+<<<<<<< HEAD
             'clinic'      => array(
                 'field' => 'clinic',
+=======
+            'clinic1'      => array(
+                'field' => 'clinic1',
+>>>>>>> 13a7918... first commit
                 'label' => trans('clinic'),
                 //'rules' => 'required'
             ),
@@ -57,6 +72,12 @@ class Mdl_Cgi extends Response_Model {
     public function db_array() {
     	
 	    $db_array = parent::db_array();
+<<<<<<< HEAD
+=======
+	    
+	    //$db_array['clinic1'] = $_POST['clinic'][0];
+	    //$db_array['clinic2'] = $_POST['clinic'][1];
+>>>>>>> 13a7918... first commit
 
 	    $db_array['created_by'] = $this->session->userdata('user_id');
 
@@ -75,6 +96,12 @@ class Mdl_Cgi extends Response_Model {
     	if ($id) {
 	    	
 	    	$db_array = parent::db_array();
+<<<<<<< HEAD
+=======
+	    	
+	    	//$db_array['clinic1'] = $_POST['clinic'][0];
+	    	//$db_array['clinic2'] = $_POST['clinic'][1];
+>>>>>>> 13a7918... first commit
 
     		$db_array['updated_by'] 	= $this->session->userdata('user_id');
     		$db_array['updated_date'] 	= date('Y-m-d H:i:s');
@@ -85,7 +112,11 @@ class Mdl_Cgi extends Response_Model {
 		return $id;
     }
 	
+<<<<<<< HEAD
 	 public function filter_select($hn)
+=======
+	public function filter_select($hn)
+>>>>>>> 13a7918... first commit
     {
         $this->filter_where('cgi.hn', $hn);
 		$this->filter_where('cgi.deleted', 'f');   

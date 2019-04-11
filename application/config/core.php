@@ -10,6 +10,10 @@ $config['site_version']          = "3.3.6";     // this is CI3 Fire Starter vers
 $config['root_folder']           = "htdocs";    // set to whatever your webroot is (htdocs, public_html, etc.) - MAKE SURE you physically rename the /htdocs folder if you change this value!
 $config['public_theme']          = "default";   // folder containing your public theme
 $config['admin_theme']           = "admin";     // folder containing your admin theme
+<<<<<<< HEAD
+=======
+$config['print_preview']       	 = "TRUE";
+>>>>>>> 13a7918... first commit
 
 // Pagination
 $config['num_links']             = 8;

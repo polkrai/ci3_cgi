@@ -25,8 +25,13 @@
 			<td><?php echo $histoy->cgi_date; ?></td>
 			<td><?php echo $histoy->hn?></td>
             <td><?php echo $histoy->vn?></td>
+<<<<<<< HEAD
 			<td><?php //echo $histoy->cgi_score?></td>
 			<td><?php echo $histoy->cgi_score?></td>
+=======
+			<td><?php echo $histoy->cgi_score?></td>
+			<td><?php echo $histoy->name?> <?php echo $histoy->lastname?></td>
+>>>>>>> 13a7918... first commit
 			<td>
 				<div class="options btn-group">
 					<a class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false"><i class="fa fa-cog"></i> ตัวเลือก</a>

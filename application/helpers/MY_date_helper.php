@@ -143,6 +143,30 @@ function date_from_mysql($date, $ignore_post_check = false)
     return '';
 }
 
+<<<<<<< HEAD
+=======
+function date_to_thai($datetime, $showtime=true)
+{
+	
+	//$datetime = ($showtime)?substr($datetime, 0, -3):$datetime;
+	
+    $thai_month_arr = array("0"=>"", "1"=>"มกราคม", "2"=>"กุมภาพันธ์", "3"=>"มีนาคม", "4"=>"เมษายน", "5"=>"พฤษภาคม", "6"=>"มิถุนายน", "7"=>"กรกฎาคม", "8"=>"สิงหาคม", "9"=>"กันยายน", "10"=>"ตุลาคม", "11"=>"พฤศจิกายน", "12"=>"ธันวาคม");
+
+    $thai_date_return = date("j", strtotime($datetime));   
+    $thai_date_return.= "&nbsp;&nbsp;".$thai_month_arr[date("n", strtotime($datetime))];   
+    $thai_date_return.= "&nbsp;&nbsp;".(date("Y", strtotime($datetime))+543);
+     
+    if($showtime) {
+	    
+	    $thai_date_return.= "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>เวลา&nbsp;".date("H:i", strtotime($datetime)) . " น.</b>";
+    }
+    
+    
+    return $thai_date_return;
+
+}
+
+>>>>>>> 13a7918... first commit
 function date_from_timestamp($timestamp)
 {
     $CI = &get_instance();
@@ -167,11 +191,20 @@ function date_thai_show($date)
     
     if ($date) {
 	    
+<<<<<<< HEAD
+=======
+	    $date = substr($date, 0, 10);
+	    
+>>>>>>> 13a7918... first commit
 	    $date_arr = explode('-', $date);
 	    
 	    return "$date_arr[2]/$date_arr[1]/$date_arr[0]";
     }
 	else {
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 13a7918... first commit
     //$date = DateTime::createFromFormat('Y-m-d H:i:s', $date);
     
     	return NULL;

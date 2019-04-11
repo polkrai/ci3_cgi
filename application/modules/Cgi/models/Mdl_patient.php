@@ -9,6 +9,11 @@ class Mdl_Patient extends Response_Model {
 	public function __construct()
     {
         parent::__construct();
+<<<<<<< HEAD
+=======
+        
+        $this->total_rows = $this->filter_select()->get()->num_rows();
+>>>>>>> 13a7918... first commit
     }
 
 	public function default_select()
@@ -29,6 +34,7 @@ class Mdl_Patient extends Response_Model {
     
     public function default_limit()
     {
+<<<<<<< HEAD
         $this->db->limit(1);
     }
  
@@ -46,6 +52,25 @@ class Mdl_Patient extends Response_Model {
 		else {
 			
 			$txtsearch_arr = explode(" ", $txtsearch);
+=======
+        //$this->db->limit(1);
+    }
+ 
+    public function filter_select()
+    {
+        $findme = ' ';
+		$pos 	= strpos($this->input->get_post('txtsearch'), $findme);
+        
+        if ($pos === FALSE) {
+        	
+        	$this->filter_or_where('medrec.nano_patient.hn', $this->input->get_post('txtsearch'));
+        	
+        	$this->filter_or_where('medrec.nano_patient.pa_name', $this->input->get_post('txtsearch'));
+		}
+		else {
+			
+			$txtsearch_arr = explode(" ", $this->input->get_post('txtsearch'));
+>>>>>>> 13a7918... first commit
 			
 			$this->filter_where('medrec.nano_patient.pa_name', $txtsearch_arr[0]);
 			

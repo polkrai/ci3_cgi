@@ -1,0 +1,168 @@
+ERROR - 2018-12-26 00:03:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:08:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:10:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:11:49 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;jvkk.nano_userx&quot; does not exist
+LINE 4: LEFT JOIN &quot;jvkk&quot;.&quot;nano_userx&quot; AS &quot;users&quot; ON &quot;users&quot;.&quot;id&quot; = &quot;...
+                  ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-26 00:11:49 --> Query error: ERROR:  relation "jvkk.nano_userx" does not exist
+LINE 4: LEFT JOIN "jvkk"."nano_userx" AS "users" ON "users"."id" = "...
+                  ^ - Invalid query: SELECT "neural_med_station"."id" AS "med_station_id", to_char(neural_med_station.check_out_date, 'DD-MM-YYYY') AS check_out_date_th, "neural_med_station"."check_out_date", "users"."id" AS "user_id", users.title || users.name || ' ' || users.lastname AS fullname, "station"."id" AS "station_id", "station"."name" AS "station_name"
+FROM "med"."neural_med_station"
+JOIN "med"."neural_station" AS "station" ON "station"."id" = "neural_med_station"."station_id"
+LEFT JOIN "jvkk"."nano_userx" AS "users" ON "users"."id" = "neural_med_station"."doctor_id"
+WHERE "neural_med_station"."check_out_date" = '2018-12-25'
+AND "neural_med_station"."deleted" = 'f'
+ORDER BY "med"."neural_med_station"."id" ASC
+ERROR - 2018-12-26 00:17:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:19:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:19:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:21:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:21:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:21:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:22:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 00:23:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:16:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:17:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:24:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:24:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:25:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:26:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:26:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:29:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 21:35:56 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.neural_appointmentx&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;neural_appointmentx&quot;
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 21:35:56 --> Query error: ERROR:  relation "frontmed.neural_appointmentx" does not exist
+LINE 2: FROM "frontmed"."neural_appointmentx"
+             ^ - Invalid query: SELECT "neural_appointment"."id" AS "appointment_id", "comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_date, 'YYYY-MM-DD') AS appointment_date_en, to_char(appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointmentx"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = E'720697'
+AND "frontmed"."neural_appointment"."deleted" = E'f'
+GROUP BY "neural_appointment"."id", "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-12-26 21:35:56 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 21:47:57 --> Severity: Warning --> pg_query(): Query failed: ERROR:  function to_timestamp(date, unknown) does not exist
+LINE 1: ...appointment&quot;.&quot;id&quot; AS &quot;appointment_id&quot;, &quot;comment&quot;, to_timesta...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 21:47:57 --> Query error: ERROR:  function to_timestamp(date, unknown) does not exist
+LINE 1: ...appointment"."id" AS "appointment_id", "comment", to_timesta...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts. - Invalid query: SELECT "neural_appointment"."id" AS "appointment_id", "comment", to_timestamp(appointment_date::date, 'YYYY-MM-DD') ||  ' ' || to_timestamp(appointment_time::time, 'HH24:MI') AS appointment_date_time, to_char(appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(appointment_date, 'YYYY-MM-DD') AS appointment_date_en, to_char(appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = E'720697'
+AND "frontmed"."neural_appointment"."deleted" = E'f'
+GROUP BY "neural_appointment"."id", "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "appointment_time" ASC
+ERROR - 2018-12-26 21:47:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:01:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:01:30 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:31 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:05:33 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:05:33 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM settings ORDER BY sort_orderx ASC
+                                        ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:05:33 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:11:34 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;sort_orderx&quot; does not exist
+LINE 1: SELECT * FROM public.settings ORDER BY sort_orderx ASC
+                                               ^
+HINT:  Perhaps you meant to reference the column &quot;settings.sort_order&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-26 22:11:34 --> Query error: ERROR:  column "sort_orderx" does not exist
+LINE 1: SELECT * FROM public.settings ORDER BY sort_orderx ASC
+                                               ^
+HINT:  Perhaps you meant to reference the column "settings.sort_order". - Invalid query: SELECT * FROM public.settings ORDER BY sort_orderx ASC
+ERROR - 2018-12-26 22:11:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Exceptions.php:271) /Library/WebServer/Documents/miracle/ci3_cgi/system/core/Common.php 570
+ERROR - 2018-12-26 22:11:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:11:50 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:13:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:13:59 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:17:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:17:08 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:17:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:17:29 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:40:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:40:26 --> Severity: Notice --> Undefined property: stdClass::$print_preview /Library/WebServer/Documents/miracle/ci3_cgi/htdocs/themes/admin/med_template.php 38
+ERROR - 2018-12-26 22:40:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:46:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 22:46:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:10:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:20:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:24:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:25:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:27:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:30:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:35:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:37:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:47:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:48:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:48:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:50:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:51:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:54:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:57:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-26 23:57:58 --> Could not find the language line "admin dashboard jsi18n-sample"

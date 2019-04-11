@@ -361,7 +361,11 @@ $config['encryption_key'] = ''; //hex2bin('c5cbd013b4a1eaf8654ecf26944faf66');
 */
 $config['sess_driver'] 		= 'database';
 $config['sess_cookie_name'] = 'ci_sessions';
+<<<<<<< HEAD
 $config['sess_table_name']  = 'ci_session';
+=======
+$config['sess_table_name']  = 'frontmed.ci_sessions';
+>>>>>>> 13a7918... first commit
 $config['sess_expiration'] 	= 7200; //864000;
 $config['sess_expire_on_close'] = TRUE;
 $config['sess_encrypt_cookie'] = TRUE;
@@ -519,15 +523,25 @@ $config['proxy_ips'] = '';
 | for base controllers and some third-party libraries.
 |
 */
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 13a7918... first commit
 function __autoload($class)
 {
     if (strpos($class, 'CI_') !== 0)
     {
         @include_once(APPPATH . 'core/' . $class . '.php');
     }
+<<<<<<< HEAD
 }
 
 //$config['modules_locations'] = array(APPPATH . 'modules/');
+=======
+}*/
+
+//$config['modules_locations'] = array(APPPATH . 'modules/' => '../modules/');
+>>>>>>> 13a7918... first commit
 
 //$config['modules_locations'] = array(
     //APPPATH . 'modules/' => '../modules/',

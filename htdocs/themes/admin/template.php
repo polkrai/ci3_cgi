@@ -36,7 +36,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+<<<<<<< HEAD
                 <a class="navbar-brand" href="<?php echo site_url(); ?>"><?php echo $this->settings->site_name; ?></a>
+=======
+                <a class="navbar-brand" href="<?php echo site_url('Cgi/index'); ?>"><?php echo $this->settings->site_name; ?></a>
+>>>>>>> 13a7918... first commit
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <?php // Nav bar left ?>
@@ -48,6 +52,7 @@
 					<li class="<?php echo (uri_string() == 'Cgi' OR uri_string() == 'Cgi/index') ? 'active' : ''; ?>"><a href="<?php echo site_url('Cgi'); ?>"><?php echo 'หน้าแรก'; ?></a></li>
 					<?php endif;?>
 					<li class="<?php echo (uri_string() == 'Cgi/Report' OR uri_string() == 'Cgi/Report/index') ? 'active' : ''; ?>"><a href="<?php echo site_url('Cgi/Report'); ?>"><?php echo 'รายงาน'; ?></a></li>
+<<<<<<< HEAD
                     <!-- <li class="dropdown<?php echo (strstr(uri_string(), 'admin/users')) ? ' active' : ''; ?>">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo lang('admin button users'); ?> <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -57,6 +62,9 @@
                     </li>
                     <li class="<?php echo (uri_string() == 'admin/contact') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/contact'); ?>"><?php echo lang('admin button messages'); ?></a></li>
                     <li class="<?php echo (uri_string() == 'admin/settings') ? 'active' : ''; ?>"><a href="<?php echo base_url('/admin/settings'); ?>"><?php echo lang('admin button settings'); ?></a></li> -->
+=======
+                   
+>>>>>>> 13a7918... first commit
                 </ul>
                 <?php // Nav bar right ?>
                 <ul class="nav navbar-nav navbar-right">
@@ -102,7 +110,10 @@
         <?php // Main content ?>
         <?php echo $content; ?>
         
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13a7918... first commit
     </div>
 
     <?php // Footer ?>
@@ -168,10 +179,17 @@ $('#created_date').datepicker({
 	autoclose:true,
 	language:'th'
 });
+<<<<<<< HEAD
 
 $('#clinic').multiselect({
 	nonSelectedText: 'เลือกคลินิก'
 });
+=======
+/*
+$('#clinic').multiselect({
+	nonSelectedText: 'เลือกคลินิก'
+});*/
+>>>>>>> 13a7918... first commit
 
 </script>
 

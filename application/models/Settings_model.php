@@ -29,11 +29,15 @@ class Settings_model extends CI_Model {
     {
         $results = NULL;
 
+<<<<<<< HEAD
         $sql = "
             SELECT *
             FROM {$this->_db}
             ORDER BY sort_order ASC
         ";
+=======
+        $sql = "SELECT * FROM public.{$this->_db} ORDER BY sort_order ASC";
+>>>>>>> 13a7918... first commit
 
         $query = $this->db->query($sql);
 

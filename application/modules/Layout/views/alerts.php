@@ -13,7 +13,11 @@
 <?php } ?>
 
 <?php if ($this->session->flashdata('alert_error')) { ?>
+<<<<<<< HEAD
 <div class="alert alert-error"><?php echo $this->session->flashdata('alert_error'); ?></div>
+=======
+<div class="alert alert-danger"><?php echo $this->session->flashdata('alert_error'); ?></div>
+>>>>>>> 13a7918... first commit
 <?php } ?>
 
 <script>

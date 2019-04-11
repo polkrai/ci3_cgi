@@ -1344,7 +1344,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+=======
+	font-family:Arial, sans-serif;
+>>>>>>> 13a7918... first commit
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #333;
@@ -1352,8 +1356,13 @@ body {
 }
 
 button, input, select, textarea {
+<<<<<<< HEAD
 	font-family: inherit;
 	font-size: inherit;
+=======
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: inherit
 }
 
@@ -1497,7 +1506,11 @@ hr {
 }
 
 .h6, h6 {
+<<<<<<< HEAD
 	font-size: 12px
+=======
+	font-size: 14px
+>>>>>>> 13a7918... first commit
 }
 
 p {
@@ -1645,8 +1658,14 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 .page-header {
 	padding-bottom: 9px;
+<<<<<<< HEAD
 	margin: 40px 0 20px;
 	border-bottom: 1px solid #eee
+=======
+	margin: 5px 0 10px;
+	/*margin: 10px 0 30px;*/
+	border-bottom: 1px solid #eee;
+>>>>>>> 13a7918... first commit
 }
 
 ol, ul {
@@ -2843,13 +2862,20 @@ output {
 	display: block;
 	width: 100%;
 	height: 34px;
+<<<<<<< HEAD
 	padding: 6px 12px;
 	font-size: 14px;
+=======
+	/*padding: 6px 12px;*/
+	padding: 5px 5px;
+	font-size: 16px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.42857143;
 	color: #555;
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #ccc;
+<<<<<<< HEAD
 	border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -2857,16 +2883,28 @@ output {
 		ease-in-out .15s;
 	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out
 		.15s;
+=======
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+>>>>>>> 13a7918... first commit
 	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
 .form-control:focus {
 	border-color: #66afe9;
 	outline: 0;
+<<<<<<< HEAD
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
 		rgba(102, 175, 233, .6);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
 		rgba(102, 175, 233, .6)
+=======
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+>>>>>>> 13a7918... first commit
 }
 
 .form-control::-moz-placeholder {
@@ -3000,7 +3038,11 @@ fieldset[disabled] input[type=checkbox], fieldset[disabled] input[type=radio],
 .input-sm {
 	height: 30px;
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5;
 	border-radius: 3px
 }
@@ -3017,7 +3059,11 @@ select[multiple].input-sm, textarea.input-sm {
 .form-group-sm .form-control {
 	height: 30px;
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5;
 	border-radius: 3px
 }
@@ -3036,7 +3082,11 @@ select[multiple].input-sm, textarea.input-sm {
 	height: 30px;
 	min-height: 32px;
 	padding: 6px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5
 }
 
@@ -3306,7 +3356,11 @@ select[multiple].input-lg, textarea.input-lg {
 @media ( min-width :768px) {
 	.form-horizontal .form-group-sm .control-label {
 		padding-top: 6px;
+<<<<<<< HEAD
 		font-size: 12px
+=======
+		font-size: 14px
+>>>>>>> 13a7918... first commit
 	}
 }
 
@@ -3714,14 +3768,22 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-group-sm>.btn, .btn-sm {
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5;
 	border-radius: 3px
 }
 
 .btn-group-xs>.btn, .btn-xs {
 	padding: 1px 5px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5;
 	border-radius: 3px
 }
@@ -3895,7 +3957,11 @@ tbody.collapse.in {
 .dropdown-header {
 	display: block;
 	padding: 3px 20px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.42857143;
 	color: #777;
 	white-space: nowrap
@@ -4184,7 +4250,11 @@ select[multiple].input-group-lg>.form-control, select[multiple].input-group-lg>.
 	.input-group-sm>.input-group-btn>.btn {
 	height: 30px;
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5;
 	border-radius: 3px
 }
@@ -4227,12 +4297,20 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	text-align: center;
 	background-color: #eee;
 	border: 1px solid #ccc;
+<<<<<<< HEAD
 	border-radius: 4px
+=======
+	border-radius: 2px
+>>>>>>> 13a7918... first commit
 }
 
 .input-group-addon.input-sm {
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	border-radius: 3px
 }
 
@@ -4743,7 +4821,12 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	}
 	.navbar-nav>li>a {
 		padding-top: 15px;
+<<<<<<< HEAD
 		padding-bottom: 15px
+=======
+		padding-bottom: 15px;
+		font-size: 16px;
+>>>>>>> 13a7918... first commit
 	}
 }
 
@@ -5211,7 +5294,11 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 
 .pagination-sm>li>a, .pagination-sm>li>span {
 	padding: 5px 10px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 1.5
 }
 
@@ -5344,7 +5431,11 @@ a.label:focus, a.label:hover {
 	display: inline-block;
 	min-width: 10px;
 	padding: 3px 7px;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	font-weight: 700;
 	line-height: 1;
 	color: #fff;
@@ -5600,7 +5691,11 @@ to {
 	float: left;
 	width: 0;
 	height: 100%;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	line-height: 20px;
 	color: #fff;
 	text-align: center;
@@ -6563,7 +6658,11 @@ button.close {
 	overflow: scroll
 }
 
+<<<<<<< HEAD
 @media ( min-width :768px) {
+=======
+@media (min-width :768px) {
+>>>>>>> 13a7918... first commit
 	.modal-dialog {
 		width: 600px;
 		margin: 30px auto
@@ -6588,7 +6687,11 @@ button.close {
 	z-index: 1070;
 	display: block;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 14px;
+>>>>>>> 13a7918... first commit
 	font-style: normal;
 	font-weight: 400;
 	line-height: 1.42857143;
