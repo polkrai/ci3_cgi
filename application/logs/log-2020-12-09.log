@@ -1,0 +1,888 @@
+ERROR - 2020-12-09 08:29:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 08:46:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 08:50:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 09:02:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 09:06:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 09:13:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 09:42:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '7'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 IN ('27', '19') AND log.com_id1 = '25' GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607483283
+WHERE "id" = 'dkl4n15t5ulj0qn8jr7et215oavqau45'
+AND "ip_address" = '192.168.20.155'
+ERROR - 2020-12-09 10:08:03 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607483283, "data" = 'X19jaV9sYXN0X3JlZ2VuZXJhdGV8aToxNjA3NDgyOTk0O3VzZXJfaWR8czozOiI3MjgiO2lkX3Nlc3N8czoyNjoidGp2Z3VrNDI4bHNpMjZ0dnJhOGVraTJwNjAiO2Z1bGxfbmFtZXxzOjcwOiLguJnguLLguIfguKrguLLguKfguIjguLHguJnguJfguKPguYzguIjguLTguKPguLIg4LiI4Liy4Lij4Li44LmE4LiK4LiiIjtpc19waHlzaWNpYW58YjowO3N0YXRpb25faWR8aToxMDtncm91cF9pZHxpOjE7ZGVwYXJ0bWVudF9pZHxOO2dyb3VwX25hbWV8czozOiJPUEQiO2xvZ2dlZF9pbnxiOjE7'
+WHERE "id" = 'lhu7p6r98inombnr9ktb5iidmqrv3c8v'
+AND "ip_address" = '192.168.10.52'
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:03 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:03 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:03 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:03 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:03 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:06 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:06 --> Unable to connect to the database
+ERROR - 2020-12-09 10:08:08 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:08:08 --> Unable to connect to the database
+ERROR - 2020-12-09 10:13:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:40:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:41:57 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT "session"."id"
+FROM "jvkk"."nano_session" AS "session"
+WHERE "session"."session_user_id" IS NULL
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:41:57 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:41:57 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:41:57 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '10'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 10:41:57 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607485317
+WHERE "id" = 's2hi8j832e6msslhccff2ek0hu715af2'
+AND "ip_address" = '192.168.10.110'
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:57 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:57 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:41:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:41:58 --> Unable to connect to the database
+ERROR - 2020-12-09 10:43:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:44:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:44:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:44:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:44:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:45 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 IN ('27', '19') AND log.com_id1 = '25' GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2020-12-09 10:46:45 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607485605
+WHERE "id" = '43thma2660h3e1clrl79mtiqdnlae438'
+AND "ip_address" = '192.168.10.52'
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '6'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 10:46:46 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607485606
+WHERE "id" = '3pur83nt9u91vo49hsi8guq9b4i5bj4m'
+AND "ip_address" = '192.168.10.55'
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:46:46 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 10:46:46 --> Unable to connect to the database
+ERROR - 2020-12-09 10:55:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 10:57:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:00:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:04:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:16:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:21:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 IN ('27', '19') AND log.com_id1 IN (2, 11, 14, 19, 27, 46, 48, 49, 58) GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607487902
+WHERE "id" = 'kped7nthoqk6dftc5h5nonm5qu7ri2g0'
+AND "ip_address" = '192.168.10.55'
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '7'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 11:25:02 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607487902, "data" = 'X19jaV9sYXN0X3JlZ2VuZXJhdGV8aToxNjA3NDg3NjkyO3VzZXJfaWR8czozOiI3MjgiO2lkX3Nlc3N8czoyNjoidGp2Z3VrNDI4bHNpMjZ0dnJhOGVraTJwNjAiO2Z1bGxfbmFtZXxzOjcwOiLguJnguLLguIfguKrguLLguKfguIjguLHguJnguJfguKPguYzguIjguLTguKPguLIg4LiI4Liy4Lij4Li44LmE4LiK4LiiIjtpc19waHlzaWNpYW58YjowO3N0YXRpb25faWR8aToxMDtncm91cF9pZHxpOjE7ZGVwYXJ0bWVudF9pZHxOO2dyb3VwX25hbWV8czozOiJPUEQiO2xvZ2dlZF9pbnxiOjE7'
+WHERE "id" = '8evv59lov2320uq39psgkql420mkmgjk'
+AND "ip_address" = '192.168.10.52'
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:02 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:02 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:02 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:03 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:03 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:25:05 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Connection refused
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:25:05 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:58 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:58 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:29:59 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:29:59 --> Unable to connect to the database
+ERROR - 2020-12-09 11:30:00 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:30:00 --> Unable to connect to the database
+ERROR - 2020-12-09 11:32:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:33:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:33:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:35:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 11:37:51 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT "session"."id"
+FROM "jvkk"."nano_session" AS "session"
+WHERE "session"."session_user_id" IS NULL
+ERROR - 2020-12-09 11:37:51 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '10'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:37:51 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607488671
+WHERE "id" = 'bo4pmcp712e53rpm2obfjll32bmc6h7b'
+AND "ip_address" = '192.168.10.110'
+ERROR - 2020-12-09 11:37:51 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:37:51 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:37:51 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:37:53 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 11:37:53 --> Unable to connect to the database
+ERROR - 2020-12-09 11:46:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 11:50:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 12:10:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 12:15:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 12:21:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 12:23:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:10:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:12:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-08', &quot;appointment_time&quot; = '10:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:12:02 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-08', "appointment_time" = '10:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-08', "appointment_time" = '10:00', "user_id" = '', "comment" = 'MMSE ก่อนพบแพทย์', "component_id" = '19', "visit_id" = '2012288', "patient_id" = '186806', "created_by" = '142', "update_date" = '2020-12-09 13:12:02'
+WHERE "neural_appointment"."id" = '840600'
+ERROR - 2020-12-09 13:12:07 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-08', &quot;appointment_time&quot; = '10:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:12:07 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-08', "appointment_time" = '10:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-08', "appointment_time" = '10:00', "user_id" = '', "comment" = 'MMSE ก่อนพบแพทย์', "component_id" = '19', "visit_id" = '2012288', "patient_id" = '186806', "created_by" = '142', "update_date" = '2020-12-09 13:12:07'
+WHERE "neural_appointment"."id" = '840600'
+ERROR - 2020-12-09 13:12:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-08', &quot;appointment_time&quot; = '10:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:12:51 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-08', "appointment_time" = '10:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-08', "appointment_time" = '10:00', "user_id" = '', "comment" = 'MMSE ก่อนพบแพทย์', "component_id" = '19', "visit_id" = '2012288', "patient_id" = '186806', "created_by" = '142', "update_date" = '2020-12-09 13:12:51'
+WHERE "neural_appointment"."id" = '840600'
+ERROR - 2020-12-09 13:12:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-08', &quot;appointment_time&quot; = '10:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:12:51 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-08', "appointment_time" = '10:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-08', "appointment_time" = '10:00', "user_id" = '', "comment" = 'MMSE ก่อนพบแพทย์', "component_id" = '19', "visit_id" = '2012288', "patient_id" = '186806', "created_by" = '142', "update_date" = '2020-12-09 13:12:51'
+WHERE "neural_appointment"."id" = '840600'
+ERROR - 2020-12-09 13:32:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:32:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:37:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:37:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:37:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:38:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:39:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:42:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-12-09' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '5'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-12-09 13:56:08 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1607496968
+WHERE "id" = 'hbh8abfsfsjqs5esavmd46s68ov57eql'
+AND "ip_address" = '192.168.10.114'
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:08 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:08 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:08 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:08 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:08 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 13:56:09 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-12-09 13:56:09 --> Unable to connect to the database
+ERROR - 2020-12-09 14:07:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 14:24:00 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:00 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:00'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:02 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:02'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:36 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:36 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:36'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:36 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:36 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:36'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:39 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:39 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:39'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:39 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:39 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:39'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:41 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:41 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:41'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:24:46 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:24:46 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:24:46'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:25:41 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:25:41 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:25:41'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:25:41 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:25:41 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:25:41'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:25:43 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...01-06', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-12-09 14:25:43 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...01-06', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2021-01-06', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์', "component_id" = '10', "visit_id" = '2012308', "patient_id" = '196739', "created_by" = '150', "update_date" = '2020-12-09 14:25:43'
+WHERE "neural_appointment"."id" = '840609'
+ERROR - 2020-12-09 14:33:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 15:27:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:31:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:31:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:31:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:32:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:32:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:33:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:34:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:34:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-12-09 21:34:30 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -1,0 +1,121 @@
+ERROR - 2020-11-30 08:10:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 08:11:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 08:21:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 08:43:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 09:05:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 09:41:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 09:49:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 10:32:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 10:39:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 10:45:33 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  duplicate key value violates unique constraint &quot;neural_appointment_pkey&quot;
+DETAIL:  Key (id)=(838518) already exists. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-30 10:45:33 --> Query error: ERROR:  duplicate key value violates unique constraint "neural_appointment_pkey"
+DETAIL:  Key (id)=(838518) already exists. - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-12-28',
+					'09:00',
+					'128',
+					'',
+					'10',
+					'2009210',
+					'29322',
+					'725',
+					'{2}'
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-11-30 11:36:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 11:54:55 --> 404 Page Not Found: 
+ERROR - 2020-11-30 11:54:58 --> 404 Page Not Found: 
+ERROR - 2020-11-30 11:55:09 --> 404 Page Not Found: 
+ERROR - 2020-11-30 12:05:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:19:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:19:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:19:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:20:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:21:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:31:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:31:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 13:33:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 14:28:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 15:01:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 15:28:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:32:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:33:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:33:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:33:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:34:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:34:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 16:34:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 17:02:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-30 18:26:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-30 18:26:45 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-12-14',
+					'10:00',
+					'',
+					'SMC',
+					'10',
+					'2009323',
+					'196268',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-11-30 18:26:48 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-30 18:26:48 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-12-14',
+					'10:00',
+					'',
+					'SMC',
+					'10',
+					'2009323',
+					'196268',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-11-30 18:27:12 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-30 18:27:12 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-12-14',
+					'10:30',
+					'',
+					'SMC',
+					'10',
+					'2009323',
+					'196268',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-11-30 18:27:30 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-30 18:27:30 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-12-14',
+					'10:30',
+					'',
+					'SMC',
+					'10',
+					'2009323',
+					'196268',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id

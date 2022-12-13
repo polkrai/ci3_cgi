@@ -1,0 +1,61 @@
+ERROR - 2021-02-20 09:01:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:01:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:01:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:01:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:02:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:02:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:02:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:02:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:02:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:03:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:04:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:04:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:04:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:04:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 09:04:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 11:32:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 11:39:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:15:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:26:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:27:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:31:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:43:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 12:57:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 13:02:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 13:18:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 13:19:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 13:47:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 14:00:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 14:08:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:10:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:10:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:11:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:11:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:12:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:15:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:16:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:16:32 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column &quot;deleted_date&quot; of relation &quot;neural_appointment&quot; does not exist
+LINE 1: ...ontmed&quot;.&quot;neural_appointment&quot; SET &quot;deleted&quot; = 't', &quot;deleted_d...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-20 15:16:32 --> Query error: ERROR:  column "deleted_date" of relation "neural_appointment" does not exist
+LINE 1: ...ontmed"."neural_appointment" SET "deleted" = 't', "deleted_d...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "deleted" = 't', "deleted_date" = '2021-02-20 15:16:32', "deleted_by" = '201', "update_date" = '2021-02-20 15:16:32'
+WHERE "neural_appointment"."id" = '851784'
+ERROR - 2021-02-20 15:16:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:16:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-20 15:17:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column &quot;deleted_date&quot; of relation &quot;neural_appointment&quot; does not exist
+LINE 1: ...ontmed&quot;.&quot;neural_appointment&quot; SET &quot;deleted&quot; = 't', &quot;deleted_d...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-20 15:17:11 --> Query error: ERROR:  column "deleted_date" of relation "neural_appointment" does not exist
+LINE 1: ...ontmed"."neural_appointment" SET "deleted" = 't', "deleted_d...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "deleted" = 't', "deleted_date" = '2021-02-20 15:17:11', "deleted_by" = '201', "update_date" = '2021-02-20 15:17:11'
+WHERE "neural_appointment"."id" = '851784'

@@ -1,0 +1,80 @@
+ERROR - 2018-12-10 00:10:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 00:44:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 00:45:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 01:29:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 01:29:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 01:40:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 01:45:22 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;undefined&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'undefined'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 01:45:22 --> Query error: ERROR:  invalid input syntax for integer: "undefined"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'undefined'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-12-10', "appointment_time" = '10:00', "user_id" = '128', "comment" = '', "component_id" = '10', "visit_id" = '1816063', "patient_id" = '54487'
+WHERE "frontmed"."neural_appointment"."id" = 'undefined'
+ERROR - 2018-12-10 01:47:28 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;undefined&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'undefined'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 01:47:28 --> Query error: ERROR:  invalid input syntax for integer: "undefined"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'undefined'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-12-10', "appointment_time" = '10:00', "user_id" = '471', "comment" = '', "component_id" = '10', "visit_id" = '1816104', "patient_id" = '129661'
+WHERE "frontmed"."neural_appointment"."id" = 'undefined'
+ERROR - 2018-12-10 01:59:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 02:20:01 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...pa_id FROM frontmed.neural_appointment WHERE id = '' AND del...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 02:20:01 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...pa_id FROM frontmed.neural_appointment WHERE id = '' AND del...
+                                                             ^ - Invalid query: SELECT neural_appointment.*, patient_id AS pa_id FROM frontmed.neural_appointment WHERE id = '' AND deleted = 'f'
+ERROR - 2018-12-10 02:20:51 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...pa_id FROM frontmed.neural_appointment WHERE id = '' AND del...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 02:20:51 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...pa_id FROM frontmed.neural_appointment WHERE id = '' AND del...
+                                                             ^ - Invalid query: SELECT neural_appointment.*, patient_id AS pa_id FROM frontmed.neural_appointment WHERE id = '' AND deleted = 'f'
+ERROR - 2018-12-10 20:44:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:44:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:45:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:45:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:50:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:52:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 20:58:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 21:05:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 21:36:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 21:59:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 22:00:48 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '', 
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 22:00:48 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '', 
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by)
+					SELECT (id + 1) AS last_id, 
+					'2018-12-10', 
+					'10:00', 
+					'', 
+					'', 
+					'10', 
+					'1815994', 
+					'184694', 
+					'486'
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2018-12-10 22:02:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 22:04:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 22:07:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 22:56:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-10 22:57:15 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 5:      '', 
+             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-10 22:57:15 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 5:      '', 
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by)
+					SELECT (id + 1) AS last_id, 
+					'2018-12-10', 
+					'10:00', 
+					'', 
+					'', 
+					'10', 
+					'1815839', 
+					'78708', 
+					'486'
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2018-12-10 23:00:17 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -1,0 +1,144 @@
+ERROR - 2020-10-27 08:04:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 08:04:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 08:36:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 08:39:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 08:40:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:22:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:23:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:23:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:24:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:24:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:24:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 09:24:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 10:48:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 10:48:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 11:02:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 11:12:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 11:21:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 11:45:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:43:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:44:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 12:44:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 13:15:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 13:48:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 13:48:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 13:58:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 14:46:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 15:09:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 15:09:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 16:07:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 16:13:25 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:13:25 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:13:25 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:13:25 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-10-27' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '6'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2020-10-27 16:13:25 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT "session"."id"
+FROM "jvkk"."nano_session" AS "session"
+WHERE "session"."session_user_id" IS NULL
+ERROR - 2020-10-27 16:13:25 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-10-27 16:13:25 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 16:13:25 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 16:13:25 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1603790005
+WHERE "id" = 'lhjtal25308r42b1isfshuq58otj2q5l'
+AND "ip_address" = '192.168.20.141'
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2020-10-27' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 IN ('27', '19') AND log.com_id1 = '25' GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT "session"."id"
+FROM "jvkk"."nano_session" AS "session"
+WHERE "session"."session_user_id" IS NULL
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: UPDATE "frontmed"."ci_sessions" SET "timestamp" = 1603790057
+WHERE "id" = 'lhjtal25308r42b1isfshuq58otj2q5l'
+AND "ip_address" = '192.168.20.141'
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-10-27 16:14:17 --> Query error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request. - Invalid query: SELECT * FROM public.settings ORDER BY sort_order ASC
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 16:14:17 --> Severity: Warning --> Unknown: Failed to write session data (user). Please verify that the current setting of session.save_path is correct () Unknown 0
+ERROR - 2020-10-27 18:26:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:26:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:27:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:28:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:29:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:30:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-27 18:31:24 --> Could not find the language line "admin dashboard jsi18n-sample"

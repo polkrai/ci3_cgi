@@ -1,0 +1,21 @@
+ERROR - 2017-07-26 07:27:12 --> Severity: Warning --> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 154
+ERROR - 2017-07-26 07:27:12 --> Unable to connect to the database
+ERROR - 2017-07-26 07:30:54 --> Severity: Warning --> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 154
+ERROR - 2017-07-26 07:30:54 --> Unable to connect to the database
+ERROR - 2017-07-26 07:31:32 --> Severity: Warning --> pg_connect(): Unable to connect to PostgreSQL server: could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (::1) and accepting
+	TCP/IP connections on port 5432?
+could not connect to server: Connection refused (0x0000274D/10061)
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 154
+ERROR - 2017-07-26 07:31:32 --> Unable to connect to the database

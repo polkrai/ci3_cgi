@@ -1,0 +1,182 @@
+ERROR - 2020-11-16 08:30:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 08:35:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 08:54:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 09:03:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 09:06:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 11:02:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 13:29:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 13:35:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 13:35:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 13:36:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 15:01:59 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:01:59 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:01:59'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:01 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:01 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:01'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:20 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:20 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:20'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:22 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:22 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:22'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:22 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:22 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:22'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:22 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:22 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:22'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:22 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:22 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:22'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:22 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:22 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:22'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:31 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:31 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:31'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:02:32 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...11-14', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-11-16 15:02:32 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...11-14', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-11-14', "appointment_time" = '08:00', "user_id" = '', "comment" = 'PsychoTest ก่อนพบแพทย์', "component_id" = '10', "visit_id" = '2005846', "patient_id" = '196673', "created_by" = '150', "update_date" = '2020-11-16 15:02:32'
+WHERE "neural_appointment"."id" = '836375'
+ERROR - 2020-11-16 15:05:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 16:32:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 16:57:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:00:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:01:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:02:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:02:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:02:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:02:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:05:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:38:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:40:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:41:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:57:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:57:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 17:59:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:02:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:03:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:03:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:04:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:04:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:04:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:06:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:07:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:07:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:07:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:08:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:08:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:08:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:09:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:10:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:10:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:10:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:11:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:12:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:12:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:13:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:13:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:14:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:14:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:14:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:14:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:15:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:16:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:18:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:18:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:29:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:29:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:30:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:34:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:43:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:44:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:44:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:49:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:52:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:53:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:53:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:54:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:54:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:55:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:56:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:56:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:57:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 18:59:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:04:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:20:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:28:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:30:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:30:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:30:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:31:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:39:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:40:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:44:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:45:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:46:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:47:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:49:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 19:53:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:01:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:03:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:04:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:07:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:09:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:09:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:09:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:11:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:12:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:13:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:14:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:14:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:16:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:18:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:19:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:20:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:23:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:24:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:26:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:34:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:37:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:38:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-11-16 20:41:07 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -1,0 +1,67 @@
+ERROR - 2020-10-07 08:35:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 08:36:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 08:59:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 09:01:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 10:50:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 11:18:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 11:53:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 11:54:21 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-07 11:54:21 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-10-27',
+					'13:00',
+					'60',
+					'จิตบำบัด สรานุช',
+					'19',
+					'1995333',
+					'',
+					'60',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-10-07 11:54:28 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-07 11:54:28 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-10-27',
+					'13:00',
+					'60',
+					'จิตบำบัด สรานุช',
+					'19',
+					'1995333',
+					'',
+					'60',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-10-07 11:54:33 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-10-07 11:54:33 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-10-27',
+					'13:00',
+					'60',
+					'จิตบำบัด สรานุช',
+					'19',
+					'1995333',
+					'',
+					'60',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-10-07 13:10:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:05:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 14:06:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-10-07 16:59:09 --> Could not find the language line "admin dashboard jsi18n-sample"

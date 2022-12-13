@@ -1,0 +1,68 @@
+ERROR - 2020-07-01 07:52:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 07:52:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 08:15:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 08:56:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:14:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:15:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:15:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:24:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:27:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:28:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:30:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:36:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:41:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 09:58:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 10:53:29 --> Could not find the language line "core error session_language"
+ERROR - 2020-07-01 10:53:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 11:01:27 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;jvkk&quot;.&quot;nano_queue&quot;.&quot;id&quot; = 'null'
+                                         ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-01 11:01:27 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "jvkk"."nano_queue"."id" = 'null'
+                                         ^ - Invalid query: UPDATE "jvkk"."nano_queue" SET "com1" = 'หลังพบแพทย์', "com2" = 'ยืนยันจ่ายยา', "action" = 'เภสัชกรยืนยันรายการสั่งยา', "com_id1" = '27', "com_id2" = '16', "user1" = '725', "user2" = NULL, "action_id" = '22', "time_send" = '2020-07-01 11:01:27', "time_receive" = NULL
+WHERE "jvkk"."nano_queue"."id" = 'null'
+ERROR - 2020-07-01 11:01:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-01 11:01:37 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-29',
+					'09:00',
+					'471',
+					'',
+					'10',
+					'1968104',
+					'',
+					'725',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-01 11:01:39 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;jvkk&quot;.&quot;nano_queue&quot;.&quot;id&quot; = 'null'
+                                         ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-01 11:01:39 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "jvkk"."nano_queue"."id" = 'null'
+                                         ^ - Invalid query: UPDATE "jvkk"."nano_queue" SET "com1" = 'หลังพบแพทย์', "com2" = 'ยืนยันจ่ายยา', "action" = 'เภสัชกรยืนยันรายการสั่งยา', "com_id1" = '27', "com_id2" = '16', "user1" = '725', "user2" = NULL, "action_id" = '22', "time_send" = '2020-07-01 11:01:39', "time_receive" = NULL
+WHERE "jvkk"."nano_queue"."id" = 'null'
+ERROR - 2020-07-01 13:12:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:14:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:36:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:40:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:40:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:47:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:47:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 13:48:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 14:19:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 14:50:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 14:50:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 14:52:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 15:04:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 15:05:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 15:05:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-01 18:25:46 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -1,0 +1,65 @@
+ERROR - 2020-05-21 08:05:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 08:05:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 08:26:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:12:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:13:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:13:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:47:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 09:58:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 10:00:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 10:24:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 10:51:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 10:52:16 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...07-17', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-05-21 10:52:16 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...07-17', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-07-17', "appointment_time" = '08:00', "user_id" = '', "comment" = 'จิตบำบัด กานดา', "component_id" = '19', "visit_id" = '1957494', "patient_id" = '165238', "created_by" = '142', "update_date" = '2020-05-21 10:52:16'
+WHERE "neural_appointment"."id" = '809518'
+ERROR - 2020-05-21 10:52:21 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...07-17', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-05-21 10:52:21 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...07-17', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-07-17', "appointment_time" = '08:00', "user_id" = '', "comment" = 'จิตบำบัด กานดา', "component_id" = '19', "visit_id" = '1957494', "patient_id" = '165238', "created_by" = '142', "update_date" = '2020-05-21 10:52:21'
+WHERE "neural_appointment"."id" = '809518'
+ERROR - 2020-05-21 10:52:35 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...07-17', &quot;appointment_time&quot; = '08:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-05-21 10:52:35 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...07-17', "appointment_time" = '08:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-07-17', "appointment_time" = '08:00', "user_id" = '', "comment" = 'จิตบำบัด กานดา', "component_id" = '19', "visit_id" = '1957494', "patient_id" = '165238', "created_by" = '142', "update_date" = '2020-05-21 10:52:35'
+WHERE "neural_appointment"."id" = '809518'
+ERROR - 2020-05-21 11:26:35 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...06-01', &quot;appointment_time&quot; = '09:00', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-05-21 11:26:35 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...06-01', "appointment_time" = '09:00', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-06-01', "appointment_time" = '09:00', "user_id" = '', "comment" = 'Psychotest+IQ กลับบ้าน ฟังผลกับเเพทย์ 18 มิ.ย.63', "component_id" = '19', "visit_id" = '1957585', "patient_id" = '193503', "created_by" = '73', "update_date" = '2020-05-21 11:26:35'
+WHERE "neural_appointment"."id" = '809573'
+ERROR - 2020-05-21 12:27:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:12:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 13:24:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 14:16:18 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...05-25', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-05-21 14:16:18 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...05-25', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-05-25', "appointment_time" = '08:30', "user_id" = '', "comment" = 'Psychotests+IQ(คดีบุกรุก)ทำแล้วกลับบ้าน', "component_id" = '19', "visit_id" = '1957655', "patient_id" = '193508', "created_by" = '73', "update_date" = '2020-05-21 14:16:18'
+WHERE "neural_appointment"."id" = '809592'
+ERROR - 2020-05-21 14:37:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 14:46:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-05-21 15:07:47 --> Could not find the language line "admin dashboard jsi18n-sample"

@@ -1,0 +1,39 @@
+ERROR - 2019-03-01 03:26:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:31:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:31:32 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column doctors.gropup_id does not exist
+LINE 5: AND &quot;doctors&quot;.&quot;gropup_id&quot; IS NULL
+            ^
+HINT:  Perhaps you meant to reference the column &quot;doctors.group_id&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-03-01 03:31:32 --> Query error: ERROR:  column doctors.gropup_id does not exist
+LINE 5: AND "doctors"."gropup_id" IS NULL
+            ^
+HINT:  Perhaps you meant to reference the column "doctors.group_id". - Invalid query: SELECT "neural_appointment"."user_id", doctors.title || doctors.name || ' ' || doctors.lastname AS doctorname
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "jvkk"."nano_user" AS "doctors" ON "doctors"."id" = "neural_appointment"."user_id"
+WHERE to_char(neural_appointment.created_date, 'YYYY-MM-DD') = '2019-02-12'
+AND "doctors"."gropup_id" IS NULL
+AND "neural_appointment"."deleted" = 'f'
+GROUP BY "neural_appointment"."user_id", "doctors"."title", "doctors"."name", "doctors"."lastname"
+ORDER BY "neural_appointment"."user_id"
+ERROR - 2019-03-01 03:31:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:31:49 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column doctors.gropup_id does not exist
+LINE 5: AND &quot;doctors&quot;.&quot;gropup_id&quot; IS NULL
+            ^
+HINT:  Perhaps you meant to reference the column &quot;doctors.group_id&quot;. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2019-03-01 03:31:49 --> Query error: ERROR:  column doctors.gropup_id does not exist
+LINE 5: AND "doctors"."gropup_id" IS NULL
+            ^
+HINT:  Perhaps you meant to reference the column "doctors.group_id". - Invalid query: SELECT "neural_appointment"."user_id", doctors.title || doctors.name || ' ' || doctors.lastname AS doctorname
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "jvkk"."nano_user" AS "doctors" ON "doctors"."id" = "neural_appointment"."user_id"
+WHERE to_char(neural_appointment.created_date, 'YYYY-MM-DD') = '2019-02-27'
+AND "doctors"."gropup_id" IS NULL
+AND "neural_appointment"."deleted" = 'f'
+GROUP BY "neural_appointment"."user_id", "doctors"."title", "doctors"."name", "doctors"."lastname"
+ORDER BY "neural_appointment"."user_id"
+ERROR - 2019-03-01 03:33:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:33:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:39:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:39:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:39:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-03-01 03:39:57 --> Could not find the language line "admin dashboard jsi18n-sample"

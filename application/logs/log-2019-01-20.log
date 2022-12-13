@@ -1,0 +1,15 @@
+ERROR - 2019-01-20 23:47:47 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;med.neural_med_station&quot; does not exist
+LINE 2: FROM &quot;med&quot;.&quot;neural_med_station&quot;
+             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-20 23:47:47 --> Query error: ERROR:  relation "med.neural_med_station" does not exist
+LINE 2: FROM "med"."neural_med_station"
+             ^ - Invalid query: SELECT "neural_med_station"."id" AS "med_station_id", to_char(neural_med_station.check_out_date, 'DD-MM-YYYY') AS check_out_date_th, "neural_med_station"."check_out_date", "users"."id" AS "user_id", users.title || users.name || ' ' || users.lastname AS fullname, "station"."id" AS "station_id", "station"."name" AS "station_name"
+FROM "med"."neural_med_station"
+JOIN "med"."neural_station" AS "station" ON "station"."id" = "neural_med_station"."station_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_med_station"."doctor_id"
+WHERE "neural_med_station"."check_out_date" = '2019-01-20'
+AND "neural_med_station"."deleted" = 'f'
+ORDER BY "med"."neural_med_station"."id" ASC
+ERROR - 2019-01-20 23:49:20 --> Severity: Notice --> Undefined property: stdClass::$site_name_med C:\Apache24\htdocs\miracle\ci3_cgi\htdocs\themes\admin\med_template.php 8
+ERROR - 2019-01-20 23:49:20 --> Severity: Notice --> Undefined property: stdClass::$site_name_med C:\Apache24\htdocs\miracle\ci3_cgi\htdocs\themes\admin\med_template.php 40
+ERROR - 2019-01-20 23:49:20 --> Severity: Notice --> Undefined property: stdClass::$site_name_med C:\Apache24\htdocs\miracle\ci3_cgi\htdocs\themes\admin\med_template.php 153

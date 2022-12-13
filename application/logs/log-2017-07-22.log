@@ -1,0 +1,43 @@
+ERROR - 2017-07-22 03:23:09 --> 404 Page Not Found: /index
+ERROR - 2017-07-22 03:25:21 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 3:             FROM emails
+                    ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-22 03:25:21 --> Query error: ERROR:  syntax error at or near "FROM"
+LINE 3:             FROM emails
+                    ^ - Invalid query: 
+            SELECT SQL_CALC_FOUND_ROWS *
+            FROM emails
+            WHERE 1 = 1
+         ORDER BY created DESC LIMIT 0, 10
+ERROR - 2017-07-22 03:26:00 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 3:             FROM users
+                    ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-22 03:26:00 --> Query error: ERROR:  syntax error at or near "FROM"
+LINE 3:             FROM users
+                    ^ - Invalid query: 
+            SELECT SQL_CALC_FOUND_ROWS *
+            FROM users
+            WHERE deleted = '0'
+         ORDER BY last_name asc LIMIT 0, 10
+ERROR - 2017-07-22 03:28:06 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 3:             FROM emails
+                    ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-22 03:28:06 --> Query error: ERROR:  syntax error at or near "FROM"
+LINE 3:             FROM emails
+                    ^ - Invalid query: 
+            SELECT SQL_CALC_FOUND_ROWS *
+            FROM emails
+            WHERE 1 = 1
+         ORDER BY created DESC LIMIT 0, 10
+ERROR - 2017-07-22 04:28:47 --> Severity: Runtime Notice --> Declaration of MY_Model::save() should be compatible with CRUD_Model::save($id = NULL, $db_array = NULL) C:\AppServ\www\ci3_fire\application\core\MY_Model.php 47
+ERROR - 2017-07-22 04:31:05 --> Severity: Runtime Notice --> Declaration of MY_Model::save() should be compatible with CRUD_Model::save($id = NULL, $db_array = NULL) C:\AppServ\www\ci3_fire\application\core\MY_Model.php 47
+ERROR - 2017-07-22 04:32:59 --> Severity: Warning --> pg_query(): Query failed: ERROR:  syntax error at or near &quot;FROM&quot;
+LINE 3:             FROM users
+                    ^ C:\AppServ\www\ci3_fire\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2017-07-22 04:32:59 --> Query error: ERROR:  syntax error at or near "FROM"
+LINE 3:             FROM users
+                    ^ - Invalid query: 
+            SELECT SQL_CALC_FOUND_ROWS *
+            FROM users
+            WHERE deleted = '0'
+         ORDER BY last_name asc LIMIT 0, 10

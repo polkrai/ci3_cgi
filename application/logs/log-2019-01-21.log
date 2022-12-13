@@ -1,0 +1,186 @@
+ERROR - 2019-01-21 06:45:44 --> Severity: Warning --> pg_query(): Query failed: ERROR:  relation &quot;frontmed.ci_sessions&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;ci_sessions&quot;
+             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 06:45:44 --> Query error: ERROR:  relation "frontmed.ci_sessions" does not exist
+LINE 2: FROM "frontmed"."ci_sessions"
+             ^ - Invalid query: SELECT "data"
+FROM "frontmed"."ci_sessions"
+WHERE "id" = 'htp9888brhhb605b0rhe12r9sjh354sl'
+AND "ip_address" = '::1'
+ERROR - 2019-01-21 07:20:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-21 07:21:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-21 07:21:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-21 07:22:08 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:23:17 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:23:21 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:23:32 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:23:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;appointment&quot;
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS...
+                      ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:23:35 --> Query error: ERROR:  missing FROM-clause entry for table "appointment"
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS...
+                      ^ - Invalid query: SELECT COUNT (*) AS total_appointment
+FROM "frontmed"."neural_appointment"
+WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS NULL
+AND "appointment"."user_id" IS NULL
+AND "appointment"."deleted" = 'f'
+ERROR - 2019-01-21 08:24:07 --> Severity: Warning --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;appointment&quot;
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS...
+                      ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:24:07 --> Query error: ERROR:  missing FROM-clause entry for table "appointment"
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS...
+                      ^ - Invalid query: SELECT COUNT (*) AS total_appointment
+FROM "frontmed"."neural_appointment"
+WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') IS NULL
+AND "appointment"."user_id" IS NULL
+AND "appointment"."deleted" = 'f'
+ERROR - 2019-01-21 08:26:18 --> Severity: Warning --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;appointment&quot;
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') = ...
+                      ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:26:18 --> Query error: ERROR:  missing FROM-clause entry for table "appointment"
+LINE 3: WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') = ...
+                      ^ - Invalid query: SELECT COUNT (*) AS total_appointment
+FROM "frontmed"."neural_appointment"
+WHERE to_char(appointment.appointment_date, 'YYYY-MM-DD') = '2019-01-24'
+AND "appointment"."user_id" = '78'
+AND "appointment"."deleted" = 'f'
+ERROR - 2019-01-21 08:35:38 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:36:26 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:37:55 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:44:35 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:44:39 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:45:21 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:45:59 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:46:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-21 08:46:31 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:46:34 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:34 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 = '27' AND log.com_id1 = '25' GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:35 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id2 = '27' AND log.com_id1 IN (2, 11, 14, 19, 46, 48, 49, 58) GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				 ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:35 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '6'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:35 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:35 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '11'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:36 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:36 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '7'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:36 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:36 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '9'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:36 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:36 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '5'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:46:36 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2019-01-21 08:46:36 --> Query error: ERROR:  column log.nano_queue_id does not exist
+LINE 1: ...log.station_id, appointment.id AS appointment_id, log.nano_q...
+                                                             ^ - Invalid query: SELECT log.vn_id, log.vn, to_char(log.date_add, 'HH24:MI') AS time_th, patient.hn, patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, log.station_id, appointment.id AS appointment_id, log.nano_queue_id AS queue_id
+				FROM jvkk.nano_queue_log AS log
+				INNER JOIN medrec.nano_visit AS visit ON visit.vn = log.vn
+				INNER JOIN medrec.nano_patient AS patient ON patient.id = visit.id_patient
+				INNER JOIN (SELECT vn, MAX(id) AS max_id FROM jvkk.nano_queue_log WHERE to_char(date_add, 'YYYY-MM-DD') = '2019-01-21' AND station_id IS NOT NULL GROUP BY vn) AS queue_max ON (queue_max.max_id=log.id)
+				LEFT JOIN frontmed.neural_appointment AS appointment ON appointment.visit_id = visit.id
+				WHERE log.com_id1 = '10' AND log.com_id2 = '27' AND log.station_id = '10'
+				GROUP BY log.vn_id, log.vn, log.date_add, patient.hn, patient.pa_pre_name, patient.pa_name, patient.pa_lastname, log.station_id, appointment.id, log.nano_queue_id
+				ORDER BY time_th ASC
+ERROR - 2019-01-21 08:47:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-01-21 08:47:11 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:50:28 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:50:53 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:53:08 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:55:46 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 08:57:49 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:00:10 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:06:28 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:12:53 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:15:50 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:16:32 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:17:44 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:18:50 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:18:53 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\controllers\Appointment.php 361
+ERROR - 2019-01-21 09:19:12 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\controllers\Appointment.php 361
+ERROR - 2019-01-21 09:24:07 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:25:34 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:26:33 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 09:39:11 --> 404 Page Not Found: /index
+ERROR - 2019-01-21 22:20:54 --> Could not find the language line "admin dashboard jsi18n-sample"

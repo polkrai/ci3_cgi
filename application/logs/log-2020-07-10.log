@@ -1,0 +1,1371 @@
+ERROR - 2020-07-10 07:47:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 07:47:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 07:51:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 07:52:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 07:52:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 07:52:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 08:35:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:14:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:15:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:15:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:19:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:19:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:23:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:30:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:41:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 09:49:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 10:33:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 10:35:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 10:36:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 11:13:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 11:50:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 12:02:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 12:07:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:37 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:38 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:38 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:39 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:39 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:46 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:46 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:46 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:46 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:46 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:46 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:07:48 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:07:48 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:08:07 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:08:07 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:08:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:08:11 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:08:25 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:08:25 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:08:26 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-10 12:08:26 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2020-07-24',
+					'08:00',
+					'471',
+					'',
+					'10',
+					'1970944',
+					'',
+					'570',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2020-07-10 12:31:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 14:34:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 14:48:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 15:16:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 15:18:29 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:29 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:29 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:29 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:29 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:29 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  the database system is shutting down /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:48 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:48 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:18:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:18:52 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:48 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:48 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:19:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:19:52 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:48 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:48 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:20:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:20:52 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:48 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:48 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:21:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:21:52 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:47 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:47 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:48 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:48 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:51 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:51 --> Unable to connect to the database
+ERROR - 2020-07-10 15:22:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:22:52 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:23:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:23:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:24:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:24:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:14 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:14 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:15 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:15 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:27 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:27 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:34 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:34 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:25:35 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: could not connect to server: Cannot assign requested address
+	Is the server running on host &quot;localhost&quot; (127.0.0.1) and accepting
+	TCP/IP connections on port 5432? /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-07-10 15:25:35 --> Unable to connect to the database
+ERROR - 2020-07-10 15:32:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 15:36:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 15:42:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 15:58:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 16:02:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:43:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:44:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:44:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:45:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:46:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:47:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:47:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:48:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:48:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:49:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:49:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:49:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-10 17:51:44 --> Could not find the language line "admin dashboard jsi18n-sample"

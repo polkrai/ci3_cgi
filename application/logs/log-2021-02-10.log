@@ -1,0 +1,423 @@
+ERROR - 2021-02-10 08:26:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 08:26:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 08:35:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 08:59:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 09:05:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 09:05:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 09:27:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 09:31:22 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:17:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:37:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:39:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:41:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:45:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 10:51:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:12:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:13:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:21:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:24:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:25:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 11:27:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 13:34:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 13:41:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:02 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:03 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:03 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:04 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:04 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:04 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:04 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:04 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:04 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:05 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:05 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:07 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:07 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:10 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:10 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:11 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:11 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:11 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:12 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:12 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:14 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:14 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:15 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:15 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:16 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:16 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:16 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:16 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:17 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:17 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:17 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:17 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:17 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:18 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:18 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 13:41:18 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 9:      '',
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-02-10 13:41:18 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 9:      '',
+             ^ - Invalid query: INSERT INTO frontmed.neural_appointment (id, appointment_date, appointment_time, user_id, comment, component_id, visit_id, patient_id, created_by, select_option)
+					SELECT (id + 1) AS last_id,
+					'2021-03-09',
+					'10:00',
+					'536',
+					'ยาเดิมปณ.ครบกำหนดพบแพทย์',
+					'10',
+					'2028446',
+					'',
+					'232',
+					NULL
+					FROM frontmed.neural_appointment ORDER BY id DESC LIMIT 1 RETURNING id AS last_id
+ERROR - 2021-02-10 14:05:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:06:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:06:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:06:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:06:36 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:06:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:26:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 14:54:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 15:12:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 15:29:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-02-10 19:46:10 --> Could not find the language line "admin dashboard jsi18n-sample"

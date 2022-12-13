@@ -1,0 +1,69 @@
+ERROR - 2020-07-20 08:08:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:08:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:22:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:23:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:23:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:23:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:23:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:23:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:27:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:27:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:31:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 08:51:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 09:46:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 09:47:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...08-18', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-20 09:47:37 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...08-18', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-08-18', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์/สรานุช', "component_id" = '19', "visit_id" = '1973274', "patient_id" = '193298', "created_by" = '73', "update_date" = '2020-07-20 09:47:37'
+WHERE "neural_appointment"."id" = '816495'
+ERROR - 2020-07-20 09:47:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...08-18', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-20 09:47:37 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...08-18', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-08-18', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์/สรานุช', "component_id" = '19', "visit_id" = '1973274', "patient_id" = '193298', "created_by" = '73', "update_date" = '2020-07-20 09:47:37'
+WHERE "neural_appointment"."id" = '816495'
+ERROR - 2020-07-20 09:47:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;&quot;
+LINE 1: ...08-18', &quot;appointment_time&quot; = '08:30', &quot;user_id&quot; = '', &quot;comme...
+                                                             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-07-20 09:47:37 --> Query error: ERROR:  invalid input syntax for integer: ""
+LINE 1: ...08-18', "appointment_time" = '08:30', "user_id" = '', "comme...
+                                                             ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2020-08-18', "appointment_time" = '08:30', "user_id" = '', "comment" = 'จิตบำบัด เปี่ยมศักดิ์/สรานุช', "component_id" = '19', "visit_id" = '1973274', "patient_id" = '193298', "created_by" = '73', "update_date" = '2020-07-20 09:47:37'
+WHERE "neural_appointment"."id" = '816495'
+ERROR - 2020-07-20 09:55:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 10:22:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 11:47:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 11:47:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 11:47:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 11:50:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:44:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:45:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 13:50:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:05:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:06:58 --> Could not find the language line "core error session_language"
+ERROR - 2020-07-20 14:06:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:07:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:07:04 --> Could not find the language line "core error session_language"
+ERROR - 2020-07-20 14:07:20 --> Could not find the language line "core error session_language"
+ERROR - 2020-07-20 14:07:20 --> Module controller failed to run: Layout/layout/load_view
+ERROR - 2020-07-20 14:09:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:26:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 14:59:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 15:31:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 16:32:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 17:10:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 18:40:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 18:59:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:01:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:02:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:03:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:03:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:04:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-07-20 19:04:49 --> Could not find the language line "admin dashboard jsi18n-sample"

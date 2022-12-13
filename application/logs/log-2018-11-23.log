@@ -1,0 +1,318 @@
+ERROR - 2018-11-23 00:10:28 --> Severity: Parsing Error --> syntax error, unexpected end of file, expecting ';' or '{' /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/models/Mdl_appointment.php 20
+ERROR - 2018-11-23 00:11:04 --> Severity: Parsing Error --> syntax error, unexpected end of file, expecting ';' or '{' /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/models/Mdl_appointment.php 20
+ERROR - 2018-11-23 00:11:25 --> Severity: Parsing Error --> syntax error, unexpected end of file, expecting ';' or '{' /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Appointment/models/Mdl_appointment.php 20
+ERROR - 2018-11-23 00:12:06 --> Severity: Warning --> pg_query(): Query failed: ERROR:  missing FROM-clause entry for table &quot;users_created&quot;
+LINE 1: ...me || ' ' || patient.pa_lastname AS patient_name, users_crea...
+                                                             ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 00:12:06 --> Query error: ERROR:  missing FROM-clause entry for table "users_created"
+LINE 1: ...me || ' ' || patient.pa_lastname AS patient_name, users_crea...
+                                                             ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, "neural_appointment"."appointment_time", "users"."id" AS "user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users2" ON "users2"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "users"."id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 00:26:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 00:26:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 00:53:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 00:53:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 00:53:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 00:54:17 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815745) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 00:54:17 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815745) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-23', '10:30', '536', 'หมายเหตุ', '10', '1815745', '31669', '486')
+ERROR - 2018-11-23 00:54:56 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815747) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 00:54:56 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815747) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-12-24', '10:30', '536', 'หมายเหตุ', '10', '1815747', '117572', '486')
+ERROR - 2018-11-23 01:10:12 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815776) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 01:10:12 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815776) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-19', '11:00', '536', 'หมายเหตุ', '10', '1815776', '164616', '486')
+ERROR - 2018-11-23 01:10:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:17:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:18:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:19:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:19:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:19:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:19:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:19:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:24:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:24:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:24:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:24:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 01:26:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:07:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:10:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:14:31 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:18:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:30:26 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:30:26 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712930'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:30:38 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:30:38 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712930'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:30:38 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:30:38 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:31:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:31:31 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:31:31 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:31:31 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:31:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:31:44 --> Severity: Warning --> pg_query(): Query failed: ERROR:  column &quot;users.id&quot; must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY &quot;users&quot;.&quot;id&quot;, &quot;neural_appointment&quot;.&quot;appointment_tim...
+                 ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 02:31:44 --> Query error: ERROR:  column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 8: ORDER BY "users"."id", "neural_appointment"."appointment_tim...
+                 ^ - Invalid query: SELECT "neural_appointment"."comment", to_timestamp(neural_appointment.appointment_date::date ||  ' ' || neural_appointment.appointment_time::time, 'YYYY-MM-DD HH24:MI') AS appointment_date_time, to_char(neural_appointment.appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name
+FROM "frontmed"."neural_appointment"
+JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "frontmed"."neural_appointment"."id" = '712927'
+GROUP BY "neural_appointment"."comment", "neural_appointment"."appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "doctorname", "hn", "patient_name", "created_name"
+ORDER BY "users"."id", "neural_appointment"."appointment_time" ASC
+ERROR - 2018-11-23 02:41:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:41:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:49:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:53:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:54:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 02:59:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:01:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:02:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:06:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:06:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:44 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:09:44 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:09:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:09:54 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:09:54 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:11:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:11:38 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:11:38 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:13:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:13:31 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:13:32 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:14:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:14:07 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:14:07 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:29:10 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:29:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:29:28 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:29:28 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:29:33 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:29:33 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:29:46 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:29:46 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:29:53 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:29:53 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:06 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:06 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:13 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:13 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:14 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:14 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:26 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:26 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:33 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:33 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:46 --> Severity: Notice --> Undefined property: CI::$mdl_sessions /Library/WebServer/Documents/miracle/ci3_cgi/application/third_party/MX/Controller.php 59
+ERROR - 2018-11-23 03:30:46 --> Severity: Error --> Call to a member function auth_check_session() on null /Library/WebServer/Documents/miracle/ci3_cgi/application/modules/Sessions/controllers/Sessions.php 131
+ERROR - 2018-11-23 03:30:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:30:56 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:30:56 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:31:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:31:03 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:31:04 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:31:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:31:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:31:09 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:31:09 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:33:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:48:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:48:50 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:48:51 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:49:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:51:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:52:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:52:07 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:52:08 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:57:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:59:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:59:22 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:59:22 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:59:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 03:59:54 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 03:59:55 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:01:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:01:55 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:01:55 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:03:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:04:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:04:00 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:05:15 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:15 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:05:20 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:20 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:05:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:05:50 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:50 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:05:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:06:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:06:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:06:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:08:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:09:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:13:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:13:29 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:13:29 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:20:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:20:40 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:20:40 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:21:14 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'null'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:21:14 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'null'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-11-23', "appointment_time" = '8:30', "user_id" = '471', "comment" = '', "component_id" = '10', "visit_id" = '1815765', "patient_id" = '134579'
+WHERE "frontmed"."neural_appointment"."id" = 'null'
+ERROR - 2018-11-23 04:22:02 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'null'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:22:02 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'null'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-11-21', "appointment_time" = '8:30', "user_id" = '471', "comment" = '', "component_id" = '10', "visit_id" = '1815765', "patient_id" = '134579'
+WHERE "frontmed"."neural_appointment"."id" = 'null'
+ERROR - 2018-11-23 04:22:32 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'null'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:22:32 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'null'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-11-21', "appointment_time" = '8:30', "user_id" = '85', "comment" = '', "component_id" = '10', "visit_id" = '1815739', "patient_id" = '133365'
+WHERE "frontmed"."neural_appointment"."id" = 'null'
+ERROR - 2018-11-23 04:23:05 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'null'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:23:05 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'null'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-11-21', "appointment_time" = '8:30', "user_id" = '85', "comment" = '', "component_id" = '10', "visit_id" = '1815796', "patient_id" = '49938'
+WHERE "frontmed"."neural_appointment"."id" = 'null'
+ERROR - 2018-11-23 04:23:26 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;frontmed&quot;.&quot;neural_appointment&quot;.&quot;id&quot; = 'null'
+                                                     ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:23:26 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "frontmed"."neural_appointment"."id" = 'null'
+                                                     ^ - Invalid query: UPDATE "frontmed"."neural_appointment" SET "appointment_date" = '2018-11-21', "appointment_time" = '8:30', "user_id" = '85', "comment" = '', "component_id" = '10', "visit_id" = '1815739', "patient_id" = '133365'
+WHERE "frontmed"."neural_appointment"."id" = 'null'
+ERROR - 2018-11-23 04:26:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:26:25 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:26:25 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:28:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:28:03 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:28:03 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:29:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:29:08 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:29:08 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:37:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:37:05 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:37:06 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:38:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:38:21 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:38:22 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:54:51 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815761) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:54:51 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815761) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-22', '8:30', '576', '', '10', '1815761', '175279', '486')
+ERROR - 2018-11-23 04:56:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:56:28 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:56:28 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:56:48 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815793) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:56:48 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815793) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-22', '8:30', '126', '', '10', '1815793', '146684', '486')
+ERROR - 2018-11-23 04:59:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 04:59:05 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:59:05 --> 404 Page Not Found: /index
+ERROR - 2018-11-23 04:59:33 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815779) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 04:59:33 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815779) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-22', '8:30', '576', '', '10', '1815779', '184234', '486')
+ERROR - 2018-11-23 05:01:39 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815751) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 05:01:39 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815751) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-23', '11:00', '99', '', '10', '1815751', '62115', '486')
+ERROR - 2018-11-23 05:02:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-11-23 05:02:59 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815828) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 05:02:59 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815828) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-22', '8:30', '85', '', '10', '1815828', '165287', '486')
+ERROR - 2018-11-23 05:03:59 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815751) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 05:03:59 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815751) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-23', '11:00', '99', '', '10', '1815751', '62115', '486')
+ERROR - 2018-11-23 05:03:59 --> Severity: Warning --> pg_query(): Query failed: ERROR:  duplicate key value violates unique constraint &quot;visit_id_index_key&quot;
+DETAIL:  Key (visit_id)=(1815751) already exists. /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-11-23 05:03:59 --> Query error: ERROR:  duplicate key value violates unique constraint "visit_id_index_key"
+DETAIL:  Key (visit_id)=(1815751) already exists. - Invalid query: INSERT INTO "frontmed"."neural_appointment" ("appointment_date", "appointment_time", "user_id", "comment", "component_id", "visit_id", "patient_id", "created_by") VALUES ('2018-11-23', '11:00', '99', '', '10', '1815751', '62115', '486')

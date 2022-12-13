@@ -1,0 +1,62 @@
+ERROR - 2021-06-12 03:54:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 03:55:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 03:55:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 03:55:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 03:56:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 03:56:35 --> Severity: Core Warning --> PHP Startup: Invalid library (maybe not a PHP library) 'filter.so'  Unknown 0
+ERROR - 2021-06-12 03:58:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 04:10:52 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:10:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:11:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:12:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:12:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:14:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:18:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:18:53 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;frontmed.neural_appointmentx&quot; does not exist
+LINE 2: FROM &quot;frontmed&quot;.&quot;neural_appointmentx&quot;
+             ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-06-12 07:18:53 --> Query error: ERROR:  relation "frontmed.neural_appointmentx" does not exist
+LINE 2: FROM "frontmed"."neural_appointmentx"
+             ^ - Invalid query: SELECT "neural_appointment"."user_id", doctors.title || doctors.name || ' ' || doctors.lastname AS doctorname
+FROM "frontmed"."neural_appointmentx"
+LEFT JOIN "jvkk"."nano_user" AS "doctors" ON "doctors"."id" = "neural_appointment"."user_id"
+WHERE to_char(neural_appointment.appointment_date, 'YYYY-MM-DD') = '2021-06-11'
+AND "neural_appointment"."deleted" = 'f'
+AND "doctors"."group_id" = 1
+GROUP BY "neural_appointment"."user_id", "doctors"."title", "doctors"."name", "doctors"."lastname"
+ORDER BY "neural_appointment"."user_id"
+ERROR - 2021-06-12 07:23:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:23:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:24:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:24:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:24:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:24:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:24:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:25:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 07:26:07 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 09:03:33 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 09:03:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 09:33:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 09:42:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 09:42:24 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  column neural_appointment.user_idx does not exist
+LINE 7: WHERE &quot;neural_appointment&quot;.&quot;user_idx&quot; = '78'
+              ^
+HINT:  Perhaps you meant to reference the column &quot;neural_appointment.user_id&quot;. /Users/polkrai/Online/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-06-12 09:42:24 --> Query error: ERROR:  column neural_appointment.user_idx does not exist
+LINE 7: WHERE "neural_appointment"."user_idx" = '78'
+              ^
+HINT:  Perhaps you meant to reference the column "neural_appointment.user_id". - Invalid query: SELECT "neural_appointment"."id" AS "appointment_id", to_char(appointment_date, 'YYYY-MM-DD') AS appointment_date, "comment", to_char(appointment_date, 'YYYY-MM-DD') ||  ' ' || to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_date_time, to_char(appointment_date, 'DD/MM/YYYY') AS appointment_date_th, to_char(appointment_date, 'YYYY-MM-DD') AS appointment_date_en, to_char(neural_appointment.appointment_time, 'HH24:MI') AS appointment_time, "neural_appointment"."user_id", users.title || users.name || ' ' || users.lastname AS doctorname, "select_option", "patient"."hn", patient.pa_pre_name || patient.pa_name || ' ' || patient.pa_lastname AS patient_name, users_created.title || users_created.name || ' ' || users_created.lastname AS created_name, "components"."com_name"
+FROM "frontmed"."neural_appointment"
+LEFT JOIN "medrec"."nano_patient" AS "patient" ON "patient"."id" = "neural_appointment"."patient_id"
+LEFT JOIN "jvkk"."nano_user" AS "users_created" ON "users_created"."id" = "neural_appointment"."created_by"
+LEFT JOIN "jvkk"."nano_components" AS "components" ON "components"."id" = "neural_appointment"."component_id"
+LEFT JOIN "jvkk"."nano_user" AS "users" ON "users"."id" = "neural_appointment"."user_id"
+WHERE "neural_appointment"."user_idx" = '78'
+AND to_char(neural_appointment.appointment_date, 'YYYY-MM-DD') = '2021-06-12'
+GROUP BY "neural_appointment"."id", "neural_appointment"."comment", "appointment_date", "neural_appointment"."appointment_time", "neural_appointment"."user_id", "neural_appointment"."select_option", "doctorname", "hn", "patient_name", "created_name", "components"."com_name"
+ORDER BY "neural_appointment"."user_id", "neural_appointment"."appointment_time" ASC
+ERROR - 2021-06-12 09:45:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 10:12:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 10:14:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 10:15:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2021-06-12 10:16:11 --> Could not find the language line "admin dashboard jsi18n-sample"

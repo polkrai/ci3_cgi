@@ -1,0 +1,15 @@
+ERROR - 2020-04-09 07:58:37 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 07:58:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 08:23:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 08:27:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 09:21:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 09:32:52 --> Severity: Warning --> pg_connect() [<a href='function.pg-connect'>function.pg-connect</a>]: Unable to connect to PostgreSQL server: FATAL:  sorry, too many clients already /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 154
+ERROR - 2020-04-09 09:32:52 --> Unable to connect to the database
+ERROR - 2020-04-09 10:21:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:12:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:17:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:23:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:23:08 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:27:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 13:27:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-04-09 16:03:08 --> Could not find the language line "admin dashboard jsi18n-sample"

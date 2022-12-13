@@ -1,0 +1,89 @@
+ERROR - 2021-04-15 16:00:37 --> 404 Page Not Found: /index
+ERROR - 2021-04-15 16:00:57 --> 404 Page Not Found: /index
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:01:53 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:08:12 --> 404 Page Not Found: /index
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:08:27 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:08:32 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:10:08 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:10:20 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:12:31 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:12:31 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:12:31 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:12:31 --> Could not find the language line "password"
+ERROR - 2021-04-15 16:12:31 --> Could not find the language line "login"
+ERROR - 2021-04-15 16:14:42 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:14:42 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:15:00 --> Severity: Warning --> call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'CI_DB_postgre_driver::auth' was given /home/miracle/public_html/ci3_cgi/application/core/MY_Model.php 72
+ERROR - 2021-04-15 16:15:00 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:15:00 --> Could not find the language line "email"
+ERROR - 2021-04-15 16:42:21 --> 404 Page Not Found: /index
+ERROR - 2021-04-15 16:48:57 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:49:01 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:49:21 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:49:27 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:50:04 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:50:06 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 24
+ERROR - 2021-04-15 16:52:28 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 25
+ERROR - 2021-04-15 16:52:29 --> Severity: Parsing Error --> syntax error, unexpected $end, expecting T_FUNCTION /home/miracle/public_html/ci3_cgi/application/modules/Cohort/controllers/Cohort.php 25
+ERROR - 2021-04-15 16:53:23 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:53:32 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:55:10 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:56:13 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:56:16 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:56:18 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 16:57:11 --> Severity: Parsing Error --> syntax error, unexpected $end /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 17:10:36 --> Severity: Warning --> preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: range out of order in character class at offset 16 /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 18
+ERROR - 2021-04-15 17:11:16 --> Severity: Warning --> preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: range out of order in character class at offset 10 /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 18
+ERROR - 2021-04-15 17:11:16 --> Severity: Warning --> preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: range out of order in character class at offset 10 /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 28
+ERROR - 2021-04-15 18:13:41 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for type timestamp: &quot;2021-04-15 Apr:13:41&quot;
+LINE 1: UPDATE &quot;cohort&quot;.&quot;cohort_ward&quot; SET &quot;create_out&quot; = '2021-04-15...
+                                                         ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-04-15 18:13:41 --> Query error: ERROR:  invalid input syntax for type timestamp: "2021-04-15 Apr:13:41"
+LINE 1: UPDATE "cohort"."cohort_ward" SET "create_out" = '2021-04-15...
+                                                         ^ - Invalid query: UPDATE "cohort"."cohort_ward" SET "create_out" = '2021-04-15 Apr:13:41'
+WHERE "name" = 'กฤตภาส'
+AND "lname" = 'ทดสอบ'
+ERROR - 2021-04-15 18:24:29 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 59
+ERROR - 2021-04-15 18:37:20 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 92
+ERROR - 2021-04-15 18:37:23 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 92
+ERROR - 2021-04-15 18:37:25 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 92
+ERROR - 2021-04-15 18:39:28 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 94
+ERROR - 2021-04-15 18:39:33 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 94
+ERROR - 2021-04-15 18:39:34 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 94
+ERROR - 2021-04-15 18:39:54 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 94
+ERROR - 2021-04-15 18:39:56 --> Severity: Notice --> Undefined variable: message /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 94
+ERROR - 2021-04-15 18:49:26 --> Severity: Parsing Error --> syntax error, unexpected ';' /home/miracle/public_html/ci3_cgi/application/modules/Cohort/views/form_cohort.php 104
+ERROR - 2021-04-15 19:07:51 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  invalid input syntax for integer: &quot;(SELECT MAX(id) FROM cohort.cohort_ward)&quot;
+LINE 4: AND &quot;id&quot; = '(SELECT MAX(id) FROM cohort.cohort_ward)'
+                   ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2021-04-15 19:07:51 --> Query error: ERROR:  invalid input syntax for integer: "(SELECT MAX(id) FROM cohort.cohort_ward)"
+LINE 4: AND "id" = '(SELECT MAX(id) FROM cohort.cohort_ward)'
+                   ^ - Invalid query: UPDATE "cohort"."cohort_ward" SET "create_out" = '2021-04-15 19:07:51'
+WHERE "name" = 'กฤตภาส'
+AND "lname" = 'ทดสอบ'
+AND "id" = '(SELECT MAX(id) FROM cohort.cohort_ward)'

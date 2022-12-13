@@ -1,0 +1,195 @@
+ERROR - 2020-03-17 08:41:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 08:41:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 08:43:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 08:50:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 09:32:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 09:34:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 10:15:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 10:24:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:28:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:29:01 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:29:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:29:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:30:26 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:31:18 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:31:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 11:34:43 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 12:55:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 12:59:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:09:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:46:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:47:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:47:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:48:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 13:51:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 14:06:49 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: UPDATE &quot;filter&quot;.&quot;mi_filterx&quot; SET &quot;weight&quot; = '59.1', &quot;height&quot;...
+               ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:06:49 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height"...
+               ^ - Invalid query: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height" = '154.1', "bmi" = '24.9'
+WHERE "hn" = '89953'
+AND to_char(date_insert, 'YYYY-MM-DD') = '2020-03-17'
+AND "auto_id" IN(SELECT MAX(auto_id) FROM filter.mi_filter)
+ERROR - 2020-03-17 14:11:01 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:01 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:02 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:03 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:05 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:05 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:06 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:06 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:07 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:07 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:08 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:10 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:10 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:11 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:11 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:12 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:12 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '84', '167/104', '167', '104')
+ERROR - 2020-03-17 14:11:36 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: UPDATE &quot;filter&quot;.&quot;mi_filterx&quot; SET &quot;weight&quot; = '59.1', &quot;height&quot;...
+               ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:11:36 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height"...
+               ^ - Invalid query: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height" = '154.1', "bmi" = '24.9'
+WHERE "hn" = '36460'
+AND to_char(date_insert, 'YYYY-MM-DD') = '2020-03-17'
+AND "auto_id" IN(SELECT MAX(auto_id) FROM filter.mi_filter)
+ERROR - 2020-03-17 14:12:01 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:01 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:02 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:02 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:03 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:03 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:04 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:04 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:05 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:05 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:07 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:07 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:08 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:08 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:09 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:09 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:10 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:10 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:12:12 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;hr&quot;, &quot;pressu...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:12:12 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressu...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "hr", "pressure", "systolic", "diastolic") VALUES ('36460', '202003170353', '78', '143/92', '143', '92')
+ERROR - 2020-03-17 14:14:45 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: UPDATE &quot;filter&quot;.&quot;mi_filterx&quot; SET &quot;weight&quot; = '59.1', &quot;height&quot;...
+               ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:14:45 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height"...
+               ^ - Invalid query: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height" = '154.1', "bmi" = '24.9'
+WHERE "hn" = '36460'
+AND to_char(date_insert, 'YYYY-MM-DD') = '2020-03-17'
+AND "auto_id" IN(SELECT MAX(auto_id) FROM filter.mi_filter)
+ERROR - 2020-03-17 14:22:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 14:35:37 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: UPDATE &quot;filter&quot;.&quot;mi_filterx&quot; SET &quot;weight&quot; = '59.1', &quot;height&quot;...
+               ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:35:37 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height"...
+               ^ - Invalid query: UPDATE "filter"."mi_filterx" SET "weight" = '59.1', "height" = '154.1', "bmi" = '24.9'
+WHERE "hn" = '153351'
+AND to_char(date_insert, 'YYYY-MM-DD') = '2020-03-17'
+AND "auto_id" IN(SELECT MAX(auto_id) FROM filter.mi_filter WHERE hn = '153351')
+ERROR - 2020-03-17 14:37:09 --> Severity: Warning --> pg_query() [<a href='function.pg-query'>function.pg-query</a>]: Query failed: ERROR:  relation &quot;filter.mi_filterx&quot; does not exist
+LINE 1: INSERT INTO &quot;filter&quot;.&quot;mi_filterx&quot; (&quot;hn&quot;, &quot;vn&quot;, &quot;diag_date&quot;, ...
+                    ^ /home/miracle/public_html/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2020-03-17 14:37:09 --> Query error: ERROR:  relation "filter.mi_filterx" does not exist
+LINE 1: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "diag_date", ...
+                    ^ - Invalid query: INSERT INTO "filter"."mi_filterx" ("hn", "vn", "diag_date", "hr", "pressure", "systolic", "diastolic") VALUES ('153351', '202003170356', '2020-03-17', '89', '108/69', '108', '69')
+ERROR - 2020-03-17 14:38:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 14:40:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 15:02:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 15:03:13 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 15:40:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 16:00:41 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 16:05:04 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2020-03-17 17:26:49 --> Could not find the language line "admin dashboard jsi18n-sample"

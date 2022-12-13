@@ -1,0 +1,7 @@
+ERROR - 2019-02-25 14:59:52 --> Severity: Core Warning --> Module 'memcached' already loaded Unknown 0
+ERROR - 2019-02-25 15:00:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-25 15:00:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-25 15:00:23 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2019-02-25 15:01:07 --> Severity: Core Warning --> Module 'memcached' already loaded Unknown 0
+ERROR - 2019-02-25 15:03:07 --> Severity: Core Warning --> Module 'memcached' already loaded Unknown 0
+ERROR - 2019-02-25 15:06:07 --> Severity: Core Warning --> Module 'memcached' already loaded Unknown 0

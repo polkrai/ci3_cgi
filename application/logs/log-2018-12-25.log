@@ -1,0 +1,164 @@
+ERROR - 2018-12-25 02:55:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 02:55:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 02:56:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 02:56:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 02:56:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:08:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:09:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:10:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:11:08 --> Severity: Notice --> Undefined property: CI::$mdl_model C:\Apache24\htdocs\miracle\ci3_cgi\application\third_party\MX\Controller.php 59
+ERROR - 2018-12-25 03:11:08 --> Severity: Error --> Call to a member function get_last_date() on null C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med.php 17
+ERROR - 2018-12-25 03:22:54 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:23:08 --> 404 Page Not Found: ../modules/Appointment/controllers/Appointment/to_day
+ERROR - 2018-12-25 03:23:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:25:59 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:28:45 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:32:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:33:31 --> 404 Page Not Found: ../modules/Appointment/controllers/Appointment/to_day
+ERROR - 2018-12-25 03:36:30 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:38:24 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:38:26 --> Severity: Notice --> Undefined variable: content_data C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\controllers\Appointment.php 153
+ERROR - 2018-12-25 03:38:26 --> Severity: Notice --> Undefined variable: doctors C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\summary_appointment.php 7
+ERROR - 2018-12-25 03:38:26 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\summary_appointment.php 7
+ERROR - 2018-12-25 03:40:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:40:36 --> Severity: Notice --> Undefined variable: date_select C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\controllers\Appointment.php 154
+ERROR - 2018-12-25 03:44:48 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:45:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:45:38 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 03:48:09 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:49:50 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:51:00 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 03:51:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:07:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:07:42 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:09:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:09:28 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:18:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:19:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:20:03 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:20:25 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 04:28:55 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 43
+ERROR - 2018-12-25 04:28:55 --> Severity: Notice --> Undefined property: stdClass::$timezones C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 04:28:55 --> Severity: Notice --> Undefined index:  C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 04:28:55 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 04:29:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 43
+ERROR - 2018-12-25 04:29:08 --> Severity: Notice --> Undefined property: stdClass::$timezones C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 04:29:08 --> Severity: Notice --> Undefined index:  C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 04:29:08 --> Severity: Notice --> date_default_timezone_set(): Timezone ID '' is invalid C:\Apache24\htdocs\miracle\ci3_cgi\application\core\Med_Controller.php 64
+ERROR - 2018-12-25 05:18:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:18:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:18:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:19:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:20:58 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:21:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:21:20 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:22:02 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:22:02 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:22:02 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:24:35 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:24:35 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:24:35 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:24:35 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 05:24:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:25:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:25:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:39:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:51:44 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:57:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 05:58:21 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:02:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:05:04 --> Severity: Parsing Error --> syntax error, unexpected ')' C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\controllers\Med.php 115
+ERROR - 2018-12-25 06:06:00 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:06:01 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:20 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 22
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 24
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:07:21 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Med\views\form_med_edit.php 25
+ERROR - 2018-12-25 06:10:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:10:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:10:47 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:10:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:13:16 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:13:32 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:13:32 --> Severity: Warning --> call_user_func_array() expects parameter 1 to be a valid callback, class 'CI_DB_postgre_driver' does not have a method 'select_doctor_time' C:\Apache24\htdocs\miracle\ci3_cgi\application\core\MY_Model.php 103
+ERROR - 2018-12-25 06:14:09 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 06:14:09 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 06:15:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 06:15:49 --> Severity: Error --> Maximum execution time of 30 seconds exceeded C:\Apache24\htdocs\miracle\ci3_cgi\system\database\drivers\postgre\postgre_driver.php 242
+ERROR - 2018-12-25 08:08:27 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 08:08:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 08:08:53 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 08:17:11 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 08:54:56 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 08:55:06 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:04:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:08:14 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:12:35 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:13:51 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:15:12 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:18:38 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:18:39 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:18:57 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:20:46 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:32:49 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:40:17 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:45:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 09:51:30 --> Severity: Warning --> pg_query(): Query failed: ERROR:  invalid input syntax for integer: &quot;null&quot;
+LINE 2: WHERE &quot;jvkk&quot;.&quot;nano_queue&quot;.&quot;id&quot; = 'null'
+                                         ^ /Library/WebServer/Documents/miracle/ci3_cgi/system/database/drivers/postgre/postgre_driver.php 242
+ERROR - 2018-12-25 09:51:30 --> Query error: ERROR:  invalid input syntax for integer: "null"
+LINE 2: WHERE "jvkk"."nano_queue"."id" = 'null'
+                                         ^ - Invalid query: UPDATE "jvkk"."nano_queue" SET "com1" = 'หลังพบแพทย์', "com2" = 'ยืนยันจ่ายยา', "action" = 'เภสัชกรยืนยันรายการสั่งยา', "com_id1" = '27', "com_id2" = '16', "action_id" = '22', "user1" = '486', "user2" = NULL, "time_send" = '2018-12-25 09:51:30', "time_receive" = NULL
+WHERE "jvkk"."nano_queue"."id" = 'null'
+ERROR - 2018-12-25 23:00:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 24
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 28
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 32
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 36
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 44
+ERROR - 2018-12-25 23:00:28 --> Severity: Notice --> Trying to get property of non-object C:\Apache24\htdocs\miracle\ci3_cgi\application\modules\Appointment\views\print_appointment.php 48
+ERROR - 2018-12-25 23:18:15 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:18:29 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:23:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:23:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:31:34 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:33:05 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:38:02 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:38:19 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:38:55 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:39:40 --> Could not find the language line "admin dashboard jsi18n-sample"
+ERROR - 2018-12-25 23:40:01 --> Could not find the language line "admin dashboard jsi18n-sample"
